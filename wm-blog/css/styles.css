@@ -2,6 +2,40 @@ body, html{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
+	background: #333745;
+}
+
+a{
+	color: #77c4d3;
+}
+a:hover, a:focus, a:active{
+	color: #77c4d3;
+}
+
+
+
+.form-control{
+	background: #404556;
+	color: #daede2;
+	border: none;
+	border-bottom: solid 1px #daede2;
+}
+.form-control:focus{
+	background: #fff;
+	color: #404556;
+	border-color: #daede2;
+}
+.form-control::-webkit-input-placeholder { color: #c8d8cf; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #c8d8cf; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #c8d8cf; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #c8d8cf; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #c8d8cf; }  /* Microsoft Edge */
+
+
+
+
+.header-main{
+	background: #272a36;
 }
 .navbar{
 	background: #272a36;
@@ -60,7 +94,6 @@ body, html{
 	color: #fff;
 }
 
-
 .navbar-brand{
 	max-width: 50px;
 	margin-right: 30px;
@@ -89,19 +122,57 @@ body, html{
 }
 
 
-.form-control{
-	background: #404556;
+
+.footer-main{
+	background: #272a36;
 	color: #daede2;
-	border: none;
-	border-bottom: solid 3px #daede2;
+	padding-top: 15px;
 }
-.form-control:focus{
-	background: #fff;
-	color: #404556;
-	border-color: #daede2;
+.footer-main > .container{
+	margin-bottom: 20px;
 }
-.form-control::-webkit-input-placeholder { color: #c8d8cf; }  /* WebKit, Blink, Edge */
-.form-control:-moz-placeholder { color: #c8d8cf; }  /* Mozilla Firefox 4 to 18 */
-.form-control::-moz-placeholder { color: #c8d8cf; }  /* Mozilla Firefox 19+ */
-.form-control:-ms-input-placeholder { color: #c8d8cf; }  /* Internet Explorer 10-11 */
-.form-control::-ms-input-placeholder { color: #c8d8cf; }  /* Microsoft Edge */
+.footer-main ul,
+.footer-main ol
+.footer-main .list-group{
+	padding: 0;
+}
+.footer-main .list-group-item{
+	background: transparent;
+	border-color: #333745;
+	padding-left: 0;
+}
+.footer-main .list-group-item > small{
+	display: block;
+	color: #73767f;
+}
+.footer-main .dark-bar{
+	background: #1e202a;
+	padding-top: 15px;
+}
+
+.footer-brand{
+	max-width: 60px;
+	display: inline-block;
+}
+.footer-brand img{
+	width: 100%;
+}
+
+.nav-footer li{
+	display: inline-block;
+	margin-right: 15px;
+	list-style: none;
+	font-size: 0.8em;
+}
+
+@media (max-width: 576px) {
+	.footer-main .nav-footer{
+		text-align: left !important;
+	}
+}
+
+
+
+main.main{
+	min-height: 300px;
+}
