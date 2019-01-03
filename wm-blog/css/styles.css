@@ -184,6 +184,19 @@ main.main{
 	padding-top: 2em;
 	padding-bottom: 4em;
 }
+.hot-post .post-body{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 1.5em;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.75+80 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 80%, rgba(0,0,0,0.75) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 80%,rgba(0,0,0,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 80%,rgba(0,0,0,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
+}
 .hot-post-left{
 	padding-right: 6px;
 }
@@ -239,19 +252,6 @@ main.main{
     transform: scale(1.2);
 }
 
-.post-body{
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-	padding: 1.5em;
-
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.75+80 */
-	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 80%, rgba(0,0,0,0.75) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 80%,rgba(0,0,0,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 80%,rgba(0,0,0,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
-}
 .post-body a{
 	color: #fff;
 }
@@ -528,4 +528,46 @@ main.main{
 	display: inline-block;
 	vertical-align: middle;
 	margin-bottom: .3em;
+}
+
+
+.last-posts{
+	padding: 0;
+	margin: 0;
+}
+.last-posts li{
+	list-style: none;
+	margin-bottom: 1em;
+}
+.last-posts li:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.last-posts .post-img{
+	width: 35%;
+	float: left;
+	margin-right: .5em;
+}
+.last-posts .post-img img{
+	display: block;
+	width: 100%;
+}
+.last-posts .post-body{
+	padding-top: .4em;
+}
+.last-posts .post-body h5{
+	font-size: 1em;
+}
+
+@media (max-width: 576px) {
+	.last-posts .post-body{
+		padding-top: 0;
+	}
+	.last-posts .post-img{
+		width: 40%;
+	}
+	.last-posts .post-body h5{
+		font-size: .9em;
+	}
 }
