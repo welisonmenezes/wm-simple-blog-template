@@ -182,7 +182,7 @@ main.main{
 
 .hot-post{
 	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 4em;
 }
 .hot-post-left{
 	padding-right: 6px;
@@ -257,12 +257,12 @@ main.main{
 }
 .post-body a:hover,
 .post-body a:focus{
-	color: #ea2e49;
+	color: #ea2e49 !important;
 	text-decoration: none;
 }
 
 .post-category a{
-	color: #ea2e49;
+	color: #ea2e49 !important;
 	font-weight: 500;
 	font-size: 0.9em;
 }
@@ -279,3 +279,80 @@ main.main{
 	margin-right: 15px;
 }
 
+
+
+.recent-post .card{
+	background: #414656;
+	color: #daede2;
+}
+.recent-post .card a{
+	color: #daede2;	
+}
+.recent-post .card a:hover,
+.recent-post .card a:focus{
+	text-decoration: none;
+	color: #ea2e49;
+}
+.recent-post .card .post-meta li{
+	color: #8188a0;
+}
+.recent-post .mb-15{
+	margin-bottom: 15px;
+}
+.recent-post .card-title{
+	margin-bottom: .3em;
+}
+.recent-post .card-title h5{
+	font-size: 1.2em;
+}
+.recent-post .row{
+	margin-bottom: 10px;
+}
+.recent-post .row .col-left{
+	padding-right: 5px;
+}
+.recent-post .row .col-right{
+	padding-left: 5px; 
+}
+
+@media (max-width: 768px) {
+	.recent-post .row{
+		margin-bottom: 0;
+	}
+	.recent-post .row > div{
+		margin-bottom: 15px;
+	}
+	.recent-post .row .col-left{
+		padding-right: 15px;
+	}
+	.recent-post .row .col-right{
+		padding-left: 15px; 
+	}
+}
+
+
+.section-title{
+	position: relative;
+}
+.section-title:after{
+	content: "";
+    display: inline-block;
+    height: 1px;
+    background-color: #747780;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 13px;
+    z-index: 1;
+}
+.section-title .title{
+	background: #333745;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: 300;
+	position: relative;
+    display: inline-block;
+    padding-right: .5em;
+    z-index: 2;
+}
