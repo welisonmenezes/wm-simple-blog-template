@@ -356,3 +356,127 @@ main.main{
     padding-right: .5em;
     z-index: 2;
 }
+
+
+
+.btn{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.btn-primary{
+	border-color: #77c4d3;
+	background: #77c4d3;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+	border-color: #80d0e0;
+	background: #80d0e0;
+}
+.btn-secondary{
+	border-color: #4b4d57;
+	background: #4b4d57;
+}
+.btn-secondary:hover,
+.btn-secondary:focus{
+	border-color: #575964;
+	background: #575964;
+}
+.btn-danger{
+	border-color: #ea2e49;
+	background: #ea2e49;
+}
+.btn-danger:hover,
+.btn-danger:focus{
+	border-color: #f33551;
+	background: #f33551;
+}
+.btn-warning{
+	border-color: #f6f792;
+	background: #f6f792;
+}
+.btn-warning:hover,
+.btn-warning:focus{
+	border-color: #f5f69e;
+	background: #f5f69e;
+}
+.btn-light{
+	border-color: #daede2;
+	background: #daede2;
+}
+.btn-light:hover,
+.btn-light:focus{
+	border-color: #e8f7ef;
+	background: #e8f7ef;
+}
+.btn-dark{
+	border-color: #1e202a;
+	background: #1e202a;
+}
+.btn-dark:hover,
+.btn-dark:focus{
+	border-color: #282b37;
+	background: #282b37;
+}
+.btn-link{
+	color: #77c4d3;
+}
+.btn-link:hover,
+.btn-link:focus{
+	color: #80d0e0;
+}
+
+.btn-outline-primary{
+	border-color: #77c4d3;
+	color: #77c4d3;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus{
+	border-color: #80d0e0;
+	background: #80d0e0;
+}
+.btn-outline-secondary{
+	border-color: #4b4d57;
+	color: #4b4d57;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus{
+	border-color: #575964;
+	background: #575964;
+}
+.btn-outline-danger{
+	border-color: #ea2e49;
+	color: #ea2e49;
+}
+.btn-outline-danger:hover,
+.btn-outline-danger:focus{
+	border-color: #f33551;
+	background: #f33551;
+}
+.btn-outline-warning{
+	border-color: #f6f792;
+	color: #f6f792;
+}
+.btn-outline-warning:hover,
+.btn-outline-warning:focus{
+	border-color: #f5f69e;
+	background: #f5f69e;
+}
+.btn-outline-light{
+	border-color: #daede2;
+	color: #daede2;
+}
+.btn-outline-light:hover,
+.btn-outline-light:focus{
+	border-color: #e8f7ef;
+	background: #e8f7ef;
+}
+.btn-outline-dark{
+	border-color: #1e202a;
+	color: #1e202a;
+}
+.btn-outline-dark:hover,
+.btn-outline-dark:focus{
+	border-color: #282b37;
+	background: #282b37;
+}
