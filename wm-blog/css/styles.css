@@ -37,6 +37,31 @@ a:hover, a:focus, a:active{
 .header-main{
 	background: #272a36;
 }
+.header-main form{
+	position: relative;
+}
+.header-main .form-control{
+	width: 150px;
+	transition:width 0.3s linear 0s;
+	-webkit-transition:width 0.3s linear 0s;
+	position: absolute;
+	right: 0;
+}
+.header-main .form-control:focus{
+	width: 300px;
+}
+
+@media (max-width: 768px){
+	.header-main form{
+		position: relative;
+	}
+	.header-main .form-control{
+		width: 100% !important;
+		position: static;
+	}
+}
+
+
 .navbar{
 	background: #272a36;
 	color: #daede2;
@@ -128,7 +153,7 @@ a:hover, a:focus, a:active{
 .footer-main{
 	background: #272a36;
 	color: #daede2;
-	padding-top: 15px;
+	padding-top: 2em;
 }
 .footer-main > .container{
 	margin-bottom: 20px;
@@ -142,6 +167,12 @@ a:hover, a:focus, a:active{
 	background: transparent;
 	border-color: #333745;
 	padding-left: 0;
+}
+.footer-main .list-group-item h4{
+	font-size: 1em;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
 }
 .footer-main .list-group-item > small{
 	display: block;
@@ -177,6 +208,7 @@ a:hover, a:focus, a:active{
 
 main.main{
 	min-height: 300px;
+	padding-bottom: 4em;
 }
 
 
