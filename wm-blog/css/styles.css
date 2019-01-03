@@ -356,6 +356,9 @@ main.main{
     padding-right: .5em;
     z-index: 2;
 }
+.section-title h4.title{
+	font-size: 1em;
+}
 
 
 
@@ -363,6 +366,9 @@ main.main{
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
+}
+.btn-sm{
+	font-size: .8em;
 }
 .btn-primary{
 	border-color: #77c4d3;
@@ -479,4 +485,47 @@ main.main{
 .btn-outline-dark:focus{
 	border-color: #282b37;
 	background: #282b37;
+}
+
+
+.list-group{
+	color: #daede2;
+}
+.list-group-item{
+	background: #414656;
+	border-color: #747780;
+}
+
+.sidebar .row{
+	margin-bottom: 2em;
+}
+.sidebar .list-group-item > small{
+	float: right;
+}
+.sidebar .list-group-item{
+	font-size: .9em;
+}
+.sidebar .list-group-item:first-child{
+	border-top: none;
+}
+.sidebar .section-title{
+	margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+	.sidebar{
+		margin-top: 2em;
+	}
+}
+
+
+.list-tags{
+	padding: 0;
+	margin: 0;
+}
+.list-tags li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: .3em;
 }
