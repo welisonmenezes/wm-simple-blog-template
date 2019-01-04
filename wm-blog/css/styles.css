@@ -14,7 +14,7 @@ a:hover, a:focus, a:active{
 }
 
 .mark, mark{
-	background: #77c4d3;
+	background: #f6f792;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
@@ -791,4 +791,68 @@ main.main{
 	.featured-posts .row > div{
 		margin-bottom: 2em;
 	}
+}
+
+
+.figure-img{
+	margin-bottom: 1em;
+	background: #272a36;
+}
+.figure-img figcaption{
+	padding-top: .5em;
+	padding: .5em;
+	color: #daede2;
+	font-size: .8em;
+	font-weight: 300;
+}
+.figure-img.center-img{
+	margin-right: auto;
+	margin-left: auto;
+}
+.figure-img.left-img{
+	float: left;
+	margin-right: 1em;
+}
+.figure-img.right-img{
+	float: right;
+	margin-left: 1em;
+}
+
+.main-post{
+	padding-bottom: 4em;
+}
+.main-post strong,
+.main-post b{
+	font-weight: 700;
+}
+.main-post img{
+	width: auto;
+	max-width: 100%;
+}
+.main-post ul,
+.main-post ol{
+	list-style-position: inside;
+	padding: 0;
+}
+.main-post .h1, .main-post .h2, .main-post .h3, .main-post .h4, .main-post .h5, .main-post .h6, 
+.main-post h1, .main-post h2, .main-post h3, .main-post h4, .main-post h5, .main-post h6{
+	padding-top: .8em;
+	margin-bottom: .5em;
+}
+
+
+
+.main-post blockquote{
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #8e919a;
+}
+.main-post blockquote:before {
+    content: open-quote;
+}
+.main-post blockquote:after {
+    content: close-quote;
 }
