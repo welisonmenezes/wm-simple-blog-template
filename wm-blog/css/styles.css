@@ -603,3 +603,32 @@ main.main{
 		font-size: .9em;
 	}
 }
+
+
+.form-newsletter p{
+	color: #daede2;
+	font-size: .8em;
+	font-weight: 300;
+}
+.form-newsletter > div{
+	position: relative;
+}
+.form-newsletter .form-control{
+	margin-bottom: .5em;
+	padding-right: 40px;
+}
+.form-newsletter button{
+	width: 38px;
+	height: 38px;
+	border-bottom: solid 1px #daede2;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+.ads-box{
+	text-align: center;
+	padding: 3em;
+	background: #272a36;
+}
