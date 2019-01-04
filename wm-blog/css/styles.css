@@ -312,7 +312,12 @@ main.main{
 }
 
 
-
+.recent-post{
+	margin-bottom: 4em;
+}
+.recent-post .ads-box{
+	padding: 1em;
+}
 .recent-post .card{
 	background: #414656;
 	color: #daede2;
@@ -528,6 +533,9 @@ main.main{
 	border-color: #747780;
 }
 
+.sidebar{
+	margin-bottom: 4em;
+}
 .sidebar .row{
 	margin-bottom: 2em;
 }
@@ -628,7 +636,24 @@ main.main{
 
 
 .ads-box{
-	text-align: center;
-	padding: 3em;
+	padding: 2em;
 	background: #272a36;
+}
+.ads-box img{
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	max-width: 100%;
+}
+
+
+
+.featured-posts .section-title{
+	margin-bottom: 1em;
+}
+.featured-posts .post-img{
+	margin-bottom: .5em;
+}
+.featured-posts .post-title{
+	font-size: 1.2em;
 }
