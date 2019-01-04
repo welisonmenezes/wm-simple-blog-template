@@ -839,6 +839,11 @@ main.main{
 	padding-top: .8em;
 	margin-bottom: .5em;
 }
+.main-post h1,
+.main-post .h1{
+	padding-top: 0;
+	margin-bottom: 0;
+}
 
 
 
@@ -855,4 +860,76 @@ main.main{
 }
 .main-post blockquote:after {
     content: close-quote;
+}
+
+
+.post-author{
+	position: relative;
+	padding-right: 40px;
+	display: inline-block;
+	min-height: 30px;
+	float: right;
+	vertical-align: middle;
+}
+.post-author img{
+	display: block;
+	width: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.post-author .name{
+	display: block;
+	padding-top: 5px;
+}
+
+
+.post-header{
+	position: relative;
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+.post-header h1{
+	background: #333745;
+	position: absolute;
+	width: 90%;
+	left: 0;
+	bottom: 0;
+	padding-top: .5em;
+}
+
+.post-info{
+	border-top: solid 1px #747780;
+	border-bottom: solid 1px #747780;
+	padding: .5em;
+	margin-bottom: 1.5em;
+	font-size: .8em;
+	min-height: 46px;
+}
+.post-info .list-tags{
+	max-width: 65%;
+	display: inline-block;
+	margin-bottom: 0;
+	vertical-align: middle;
+	padding-top: 4px;
+}
+.post-info .list-tags li{
+	margin-bottom: 0;
+}
+
+
+
+.single-header{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+.single-header h2{
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+.single-header p{
+	font-size: .8em;
+	margin-bottom: 0;
 }
