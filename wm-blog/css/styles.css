@@ -985,3 +985,20 @@ main.main{
 		margin-left: 0;
 	}
 }
+
+
+.form-comments{
+	padding-top: 2em;
+}
+.form-comments textarea{
+	min-height: 150px;
+}
+.form-comments .row{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.form-comments .row > div{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+}
