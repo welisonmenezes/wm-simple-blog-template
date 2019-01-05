@@ -742,19 +742,19 @@ main.main{
 }
 
 
-.form-newsletter p{
+.form-sidebar p{
 	color: #daede2;
 	font-size: .8em;
 	font-weight: 300;
 }
-.form-newsletter > div{
+.form-sidebar > div{
 	position: relative;
 }
-.form-newsletter .form-control{
+.form-sidebar .form-control{
 	margin-bottom: .5em;
 	padding-right: 40px;
 }
-.form-newsletter button{
+.form-sidebar button{
 	width: 38px;
 	height: 38px;
 	border-bottom: solid 1px #daede2;
@@ -785,6 +785,14 @@ main.main{
 }
 .featured-posts .post-title{
 	font-size: 1.2em;
+}
+.featured-posts.small .row{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.featured-posts.small .row > div{
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 @media (max-width: 768px) {
@@ -950,7 +958,7 @@ main.main{
 .nav-post .post-body .label{
 	font-size: 1.2em;
 	text-transform: uppercase;
-	color: #77c4d3;
+	color: #ea2e49;
 }
 .nav-post .post-body a:hover .label{
 	text-decoration: underline;
