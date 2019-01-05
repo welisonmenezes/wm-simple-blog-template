@@ -1002,3 +1002,58 @@ main.main{
 	padding-right: 5px;
 	margin-bottom: 10px;
 }
+
+
+.post-comments{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.post-comments .media{
+	margin-top: 2em;
+	align-items: stretch;
+}
+.post-comments .media-heading{
+	margin-bottom: .5em;
+}
+.post-comments .media .media-left img{
+	width: 50px;
+	display: block;
+	position: relative;
+    z-index: 20;
+}
+.post-comments .media .media-left{
+	position: relative;
+    padding-right: 15px;
+}
+.post-comments .media .media-heading h4{
+	display: inline-block;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #77c4d3;
+}
+.post-comments .media .media-heading .time{
+	color: #97989b;
+    margin-left: 10px;
+    font-size: .7em;
+}
+.post-comments .media .media-left:after{
+	content: "";
+    position: absolute;
+    left: calc(50% - 9px);
+    top: 80px;
+    bottom: 15px;
+    width: 1px;
+    background-color: #747780;
+}
+
+@media (max-width: 576px) {
+	.post-comments .media{
+		font-size: .8rem;
+	}
+	.post-comments .media .media-left img{
+		width: 40px;
+	}
+	.post-comments .media .media-left{
+	    padding-right: 10px;
+	}
+}
