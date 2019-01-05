@@ -819,7 +819,7 @@ main.main{
 }
 
 .main-post{
-	padding-bottom: 4em;
+	padding-bottom: 2em;
 }
 .main-post strong,
 .main-post b{
@@ -932,4 +932,48 @@ main.main{
 .single-header p{
 	font-size: .8em;
 	margin-bottom: 0;
+}
+
+
+.row-nav-post{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.nav-post .post-img{
+	width: 35%;
+    float: left;
+    margin-right: .5em;
+}
+.nav-post .post-body h5{
+	font-size: 1em;
+}
+.nav-post .post-body .label{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #77c4d3;
+}
+.nav-post .post-body a:hover .label{
+	text-decoration: underline;
+}
+.nav-post.right{
+	text-align: right;
+}
+.nav-post.right .post-img{
+	float: right;
+	margin-right: 0;
+	margin-left: .5em;
+}
+
+@media (max-width: 768px) {
+	.row-nav-post .col-md-6:first-child{
+		margin-bottom: 1em;
+	}
+	.nav-post.right{
+		text-align: left;
+	}
+	.nav-post.right .post-img{
+		float: left;
+		margin-right: .5em;
+		margin-left: 0;
+	}
 }
