@@ -26,6 +26,11 @@ textarea{
 }
 
 
+.no-top-padding{
+	padding-top: 0 !important;
+}
+
+
 .table{
 	border-color: #daede2 !important;
 	background: #fff;
@@ -1156,4 +1161,9 @@ main.main{
 .social-links li a:hover,
 .social-links li a:focus{
 	color: #77c4d3;
+}
+
+
+.page-category .hot-post{
+	padding-bottom: 1em;
 }
