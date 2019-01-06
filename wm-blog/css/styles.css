@@ -13,6 +13,10 @@ a:hover, a:focus, a:active{
 	color: #77c4d3;
 }
 
+textarea{
+	min-height: 150px;
+}
+
 .mark, mark{
 	background: #f6f792;
 }
@@ -1021,9 +1025,6 @@ main.main{
 .form-comments{
 	padding-top: 2em;
 }
-.form-comments textarea{
-	min-height: 150px;
-}
 .form-comments .row{
 	margin-left: -5px;
 	margin-right: -5px;
@@ -1124,4 +1125,35 @@ main.main{
 		font-size: 9rem;
 		line-height: 9rem;
 	}
+}
+
+
+.contact-text{
+	margin-bottom: 2em;
+}
+.contact-text .section-title{
+	margin-bottom: 1em;
+}
+.form-contact .row > div{
+	margin-bottom: 1em;
+}
+.contact-info p{
+	margin-bottom: .5em;
+}
+
+.social-links{
+	padding: 0;
+	font-size: 1.8em;
+}
+.social-links li{
+	list-style: none;
+	display: inline-block;
+	margin-right: .8em;
+}
+.social-links li a{
+	color: #daede2;
+}
+.social-links li a:hover,
+.social-links li a:focus{
+	color: #77c4d3;
 }
