@@ -805,6 +805,9 @@ main.main{
 .featured-posts .post-title{
 	font-size: 1.2em;
 }
+.featured-posts.small{
+	font-size: .9em;
+}
 .featured-posts.small .row{
 	margin-left: -5px;
 	margin-right: -5px;
@@ -1133,6 +1136,10 @@ main.main{
 }
 
 
+.contact-text,
+.form-contact{
+	max-width: 90%;
+}
 .contact-text{
 	margin-bottom: 2em;
 }
@@ -1153,7 +1160,7 @@ main.main{
 .social-links li{
 	list-style: none;
 	display: inline-block;
-	margin-right: .8em;
+	margin-right: .4em;
 }
 .social-links li a{
 	color: #daede2;
@@ -1161,6 +1168,13 @@ main.main{
 .social-links li a:hover,
 .social-links li a:focus{
 	color: #77c4d3;
+}
+
+@media (max-width: 768px) {
+	.contact-text,
+	.form-contact{
+		max-width: none;
+	}
 }
 
 
