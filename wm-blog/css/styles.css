@@ -1209,3 +1209,30 @@ main.main{
 	max-width: 100%;
 	display: block;
 }
+
+
+.modal-content{
+	background: #272a36;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.modal-dialog{
+	max-width: 80%;
+}
+.modal-header,
+.modal-footer{
+	border-color: #333745;
+}
+.modal-content .close{
+	color: #fff !important;
+}
+
+@media (max-width: 576px) {
+	.modal{
+		padding: 0 !important;
+	}
+	.modal-dialog{
+		max-width: 100%;
+	}
+}
