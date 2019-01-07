@@ -1203,3 +1203,9 @@ main.main{
 	padding-right: 5px;
 	padding-left: 5px;
 }
+
+.carousel img{
+	width: auto;
+	max-width: 100%;
+	display: block;
+}
