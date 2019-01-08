@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "popper.js",
+        "scope": null,
+        "escapedName": "popper.js",
+        "name": "popper.js",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\wamp\\www\\welison\\projects\\bootstrap-templates"
+    ]
+  ],
+  "_from": "popper.js@latest",
+  "_hasShrinkwrap": false,
+  "_id": "popper.js@1.14.6",
+  "_inCache": true,
+  "_location": "/popper.js",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/popper.js_1.14.6_1543416201679_0.35731598708817014"
+  },
+  "_npmUser": {
+    "name": "fezvrasta",
+    "email": "federico.zivolo@gmail.com"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "popper.js",
+    "scope": null,
+    "escapedName": "popper.js",
+    "name": "popper.js",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/popper.js/-/popper.js-1.14.6.tgz",
+  "_shasum": "ab20dd4edf9288b8b3b6531c47c361107b60b4b0",
+  "_shrinkwrap": null,
+  "_spec": "popper.js",
+  "_where": "C:\\wamp\\www\\welison\\projects\\bootstrap-templates",
+  "author": {
+    "name": "Federico Zivolo",
+    "email": "federico.zivolo@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/FezVrasta/popper.js/issues"
+  },
+  "contributors": [
+    {
+      "name": "Contributors",
+      "url": "https://github.com/FezVrasta/popper.js/graphs/contributors"
+    }
+  ],
+  "dependencies": {},
+  "description": "A kickass library to manage your poppers",
+  "devDependencies": {
+    "@popperjs/bundle": "^1.0.2",
+    "@popperjs/eslint-config-popper": "^1.0.0",
+    "@popperjs/test": "^1.0.0",
+    "@popperjs/test-utils": "^1.0.0",
+    "eslint": "^4.1.1",
+    "nuget-publish": "^1.0.3",
+    "typescript": "^2.7.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "ab20dd4edf9288b8b3b6531c47c361107b60b4b0",
+    "integrity": "sha512-AGwHGQBKumlk/MDfrSOf0JHhJCImdDMcGNoqKmKkU+68GFazv3CQ6q9r7Ja1sKDZmYWTckY/uLyEznheTDycnA==",
+    "tarball": "https://registry.npmjs.org/popper.js/-/popper.js-1.14.6.tgz",
+    "fileCount": 33,
+    "unpackedSize": 1601209,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/qmKCRA9TVsSAnZWagAACv4QAIbTOWvSBcS9UZuu5/9V\n8PTMzXHI//mAJzkpa7EVq7QJTWy4tZEcltPp0jqTFP5JZK6YrT0m2vgHJPse\nMNTb07i2ZVjMbOQCE5040sM+aTl3VwrLBNG+hce1//graeli/ih8zbHHKyja\n4n86Ra1+/BQ5SiRDmPoCpX1klojUZtKAsQT6xBREAmo8y5hN5mKdFc91zJcL\ny5YfjMJGS0ig8PIjtG/0HN6XWPv/3GzqtA/leStw7oVdgCjVaiH+CJWB98/f\nqVNABd3k0zVnLTtcz4msgatWwZ2cC/+iO4foxRkhdWw4YBw01Ns8wu4X+P2b\niHfJPFyivYOoQFt5d0QHSC5VK3B32B+2deEVyJUsxxg0TzJe7GVkviYKBODu\nltbwBDhWSsG2YQuCf9yT9ksU7xIk008ucYT/F/X/FrjtPLQlkb/NcAYGuCSF\nlmR6wREmLcl3utt50kCtQk7VE7xefeZqTOllO5ojmU1XPurp4VkrP15RoSZ0\njI+84/iNw2mWaSlZF4nBJsz8L05yXILtjm63sHgoeLlgG5jGQgX44TdvFveg\nErvbYApXjo+ZjPcJi8KcKpoAsxpD2UWvDUtXl3JuoYHwvU2YBngBbtspzTC9\nxKaQlYria1k02iqTv9igOozd11588bkIiXU792sPewJf/nNYlO6BT83XrqyG\n4Lye\r\n=z56U\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "homepage": "https://popper.js.org/",
+  "keywords": [
+    "popperjs",
+    "component",
+    "drop",
+    "tooltip",
+    "popover",
+    "position",
+    "attached"
+  ],
+  "license": "MIT",
+  "main": "dist/umd/popper.js",
+  "maintainers": [
+    {
+      "name": "fezvrasta",
+      "email": "info@mywebexpression.com"
+    }
+  ],
+  "module": "dist/esm/popper.js",
+  "name": "popper.js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FezVrasta/popper.js.git"
+  },
+  "resolutions": {
+    "micromatch": "^3.0.3"
+  },
+  "scripts": {
+    "build": "node bundle.js && cp index.js.flow dist/umd/poppper.js.flow",
+    "coverage": "COVERAGE=true yarn test",
+    "lint": "eslint .",
+    "postpublish": "nuget-publish && ./bower-publish.sh",
+    "posttest": "tsc --project tests/types/tsconfig.json",
+    "prebuild": "yarn lint",
+    "prepare": "yarn build",
+    "pretest": "yarn lint",
+    "test": "popper-karma",
+    "test:dev": "BROWSERS=Chrome NODE_ENV=development yarn test"
+  },
+  "types": "index.d.ts",
+  "version": "1.14.6"
+}
