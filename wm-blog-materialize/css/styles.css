@@ -1,0 +1,133 @@
+body, html{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	background: #333745;
+	color: #fff;
+}
+
+a{
+	color: #77c4d3;
+}
+a:hover, a:focus, a:active{
+	color: #77c4d3;
+}
+
+input{
+	margin-bottom: 0 !important;
+}
+textarea{
+	min-height: 150px;
+	margin-bottom: 0 !important;
+}
+form{
+	line-height: normal;
+}
+
+.container{
+	width: 100%;
+	max-width: 1140px;
+}
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
+	height: auto;
+	line-height: 1.5;
+}
+
+.form-control{
+	background: #404556 !important;
+	padding: 0 1em !important;
+	color: #daede2;
+	border-bottom: solid 1px #daede2 !important;
+	height: 37px !important;
+}
+.form-control:focus{
+	background: #fff !important;
+	color: #404556;
+	border-color: #daede2 !important;
+}
+.form-control::-webkit-input-placeholder { color: #c8d8cf; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #c8d8cf; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #c8d8cf; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #c8d8cf; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #c8d8cf; }  /* Microsoft Edge */
+
+
+.header-brand{
+	padding-top: 3px;
+}
+.header-brand img{
+	width: 50px;
+}
+
+.header-main{
+	background: #272a36;
+	min-height: 58px;
+	line-height: 1.5 !important;
+}
+.header-main > .container{
+	padding-top: 10px;
+}
+.header-main .navbar{
+	background: transparent;
+	    -webkit-box-shadow: none;
+    	box-shadow: none;
+}
+.header-main .row{
+	margin-bottom: 0;
+}
+.header-main .form-inline{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+.header-main .form-control{
+	width: 150px !important;
+	transition:width 0.3s linear 0s !important;
+	-webkit-transition:width 0.3s linear 0s !important;
+	position: absolute;
+	right: 0;
+}
+.header-main .form-control:focus{
+	width: 300px !important;
+}
+.header-main a.active{
+	background: #77c4d3;
+    color: #fff;
+}
+
+
+.navbar-social{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1em;
+	padding-top: .5em;
+}
+.navbar-social > li > a{
+	padding: 0 .4rem;
+	color: #daede2;
+}
+.navbar-social > li > a:hover,
+.navbar-social > li > a:focus{
+	color: #77c4d3;
+}
+.navbar-social a i{
+	font-size: 1em;
+	height: auto;
+}
+
+.nav-main > li > a{
+	padding: .5rem;
+}
+
+
+.dropdown > .dropdown-trigger:after{
+	display: inline-block;
+	margin-left: .255em;
+	vertical-align: .255em;
+	content: "";
+	border-top: .3em solid;
+	border-right: .3em solid transparent;
+	border-bottom: 0;
+	border-left: .3em solid transparent;
+}

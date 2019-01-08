@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic Start</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-category">
+	
+	<!-- header-main -->
+	<header class="header-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="navbar navbar-dark navbar-expand-md">
+						<a href="index.html" class="navbar-brand">
+							<img src="assets/images/mylogo.svg" alt="Logo">
+						</a>
+						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+				          <span class="navbar-toggler-icon"></span>
+				        </button>
+				        <div id="navbarMain" class="collapse navbar-collapse">
+				        	<ul class="navbar-nav mr-auto">
+				        		<li class="nav-item">
+				        			<a href="index.html" class="nav-link">Home</a>
+				        		</li>
+				        		<li class="nav-item dropdown">
+				        			<a class="dropdown-toggle nav-link active" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Pages</a>
+				        			<div class="dropdown-menu rounded-0 border-0" aria-labelledby="dropdown01">
+				        				<a class="dropdown-item" href="blog-post.html">Blog Post</a>
+				        				<a class="dropdown-item active" href="blog-list.html">Blog List</a>
+									    <a class="dropdown-item" href="page-404.html">404 Page</a>
+									    <a class="dropdown-item" href="bootstrap-elements.html">Bootstrap Elements</a>
+									</div>
+				        		</li>
+				        		<li class="nav-item">
+				        			<a href="about.html" class="nav-link">About</a>
+				        		</li>
+				        		<li class="nav-item">
+				        			<a href="contact.html" class="nav-link">Contact</a>
+				        		</li>
+				        	</ul>
+				        	<form class="form-inline" role="search">
+				            	<input class="search form-control rounded-0" type="text" title="Enter search query here.." placeholder="Search.." aria-label="Search">
+				            </form>
+				            <ul class="navbar-nav navbar-social">
+				        		<li class="nav-item">
+				        			<a href="#" class="nav-link">
+				        				<i class="fab fa-github"></i>
+				        			</a>
+				        		</li>
+				        		<li class="nav-item">
+				        			<a href="#" class="nav-link">
+				        				<i class="fab fa-linkedin"></i>
+				        			</a>
+				        		</li>
+				        	</ul>
+				        </div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end header-main -->
+
+	<aside class="single-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 breadcrumbs">
+					<p>
+						<span>
+							<a href="index.html">Home</a>
+						</span> / 
+						<span>Category Name</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+
+	<!-- main -->
+	<main class="main">
+		<div class="container">
+			
+			<div class="row">
+
+				<div class="col-md-8">
+
+					<!-- hot-post -->
+					<div class="hot-post no-top-padding">
+						<div class="row">
+							<div class="col-md-12 hot-post-left">
+								<div class="post post-thumb">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-1.jpg" alt="">
+									</a>
+									<div class="post-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<h3 class="post-title title-lg">
+											<a href="blog-post.html">
+												Postea senserit id eos, vivendo periculis ei qui
+											</a>
+										</h3>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end hot-post -->
+
+					<!-- recent-posts -->
+					<div class="recent-post">
+						<div class="row">
+							<div class="col-md-6 col-left">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-4.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-right">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-5.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-left">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-6.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-right">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-7.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-left">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-8.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-right">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-9.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="ads-box">
+									<img src="assets/images/ad-2.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-left">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-10.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-right">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-11.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-left">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-2.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-right">
+								<div class="card rounded-0 border-0">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-3.jpg" class="card-img-top rounded-0" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end recent-posts -->
+					
+					<!-- pagination -->
+					<div class="text-right">
+						<nav aria-label="" class="nav-pagination">
+							<ul class="pagination">
+								<li class="page-item disabled">
+									<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+								</li>
+								<li class="page-item">
+									<a class="page-link" href="#">1</a>
+								</li>
+								<li class="page-item active" aria-current="page">
+									<a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="page-item">
+									<a class="page-link" href="#">3</a>
+								</li>
+								<li class="page-item">
+									<a class="page-link" href="#">Next</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- end pagination -->
+
+				</div>
+
+				<div class="col-md-4">
+					<!-- sidebar -->
+					<div class="sidebar">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="section-title">
+									<h4 class="title">Popular Posts</h4>
+								</div>
+								<ul class="last-posts">
+									<li class="last-posts-item">
+										<a href="blog-post.html" class="post-img">
+											<img src="assets/images/post-4.jpg" alt="">
+										</a>
+										<div class="post-body">
+											<div class="post-category">
+												<a href="blog-list.html">Technology</a>
+											</div>
+											<a href="blog-post.html">
+												<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+											</a>
+										</div>
+									</li>
+									<li class="last-posts-item">
+										<a href="blog-post.html" class="post-img">
+											<img src="assets/images/post-1.jpg" alt="">
+										</a>
+										<div class="post-body">
+											<div class="post-category">
+												<a href="blog-list.html">Technology</a>
+											</div>
+											<a href="blog-post.html">
+												<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+											</a>
+										</div>
+									</li>
+									<li class="last-posts-item">
+										<a href="blog-post.html" class="post-img">
+											<img src="assets/images/post-3.jpg" alt="">
+										</a>
+										<div class="post-body">
+											<div class="post-category">
+												<a href="blog-list.html">Technology</a>
+											</div>
+											<a href="blog-post.html">
+												<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+											</a>
+										</div>
+									</li>
+									<li class="last-posts-item">
+										<a href="blog-post.html" class="post-img">
+											<img src="assets/images/post-8.jpg" alt="">
+										</a>
+										<div class="post-body">
+											<div class="post-category">
+												<a href="blog-list.html">Technology</a>
+											</div>
+											<a href="blog-post.html">
+												<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+											</a>
+										</div>
+									</li>
+									<li class="last-posts-item">
+										<a href="blog-post.html" class="post-img">
+											<img src="assets/images/post-7.jpg" alt="">
+										</a>
+										<div class="post-body">
+											<div class="post-category">
+												<a href="blog-list.html">Technology</a>
+											</div>
+											<a href="blog-post.html">
+												<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<form class="form-sidebar">
+									<div>
+										<input type="text" class="form-control rounded-0" placeholder="Search">
+										<button type="submit" class="btn btn-primary btn-sm">
+											<i class="fa fa-search"></i>
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="ads-box">
+									<img src="assets/images/ad-1.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="section-title">
+									<h4 class="title">Categories</h4>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">
+										<a href="blog-list.html">Technology</a>
+										<small>123</small>
+									</li>
+									<li class="list-group-item">
+										<a href="blog-list.html">Development</a>
+										<small>98</small>
+									</li>
+									<li class="list-group-item">
+										<a href="blog-list.html">Design</a>
+										<small>76</small>
+									</li>
+									<li class="list-group-item">
+										<a href="blog-list.html">Frontend</a>
+										<small>32</small>
+									</li>
+									<li class="list-group-item">
+										<a href="blog-list.html">Companies</a>
+										<small>15</small>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="section-title">
+									<h4 class="title">Tags</h4>
+								</div>
+								<ul class="list-tags">
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Business</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Html</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Web Development</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Art</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Desgin</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Games</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Amazon</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Design Pattern</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">UX</a>
+									</li>
+									<li>
+										<a href="blog-list.html" class="btn btn-primary btn-sm">Technology</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="section-title">
+									<h4 class="title">Newsletter</h4>
+								</div>
+								<form class="form-sidebar">
+									<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium</p>
+									<div>
+										<input type="text" class="form-control rounded-0" placeholder="Email">
+										<button type="submit" class="btn btn-primary btn-sm">
+											<i class="fa fa-paper-plane"></i>
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- end sidebar -->
+				</div>
+			</div>
+
+		</div>
+	</main>
+	<!-- end main -->
+	
+	<!-- footer-main -->
+	<footer class="footer-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">
+							<a href="index.html" class="footer-brand">
+								<img src="assets/images/mylogo.svg" alt="Logo">
+							</a>
+						</li>
+						<li class="list-group-item">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex accusamus cupiditate molestias aliquid quam consequatur.</p>
+							<p>&copy; Welison Menezes 2019</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">
+							<h4>Most Commented</h4>
+						</li>
+						<li class="list-group-item">
+							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
+							<small>Jan 25, 2018</small>
+						</li>
+						<li class="list-group-item">
+							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
+							<small>Jan 25, 2018</small>
+						</li>
+						<li class="list-group-item">
+							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
+							<small>Jan 25, 2018</small>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">
+							<h4>Best Rated</h4>
+						</li>
+						<li class="list-group-item">
+							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
+							<small>Jan 25, 2018</small>
+						</li>
+						<li class="list-group-item">
+							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
+							<small>Jan 25, 2018</small>
+						</li>
+						<li class="list-group-item">
+							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
+							<small>Jan 25, 2018</small>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="dark-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8">
+						<ul class="nav-footer">
+							<li>
+								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Terms &amp; Conditions</a>
+							</li>
+							<li>
+								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy policy</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul class="nav-footer text-right">
+							<li>
+								<a href="#">
+									<i class="fab fa-github"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fab fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer-main -->
+
+	<!-- modal -->
+	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-times"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					<!-- main-post -->
+					<div class="main-post">
+						<div class="post-content">
+							<h2>Donec ac orci lorem. Aenean venenatis molestie</h2>
+							<p>
+								Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Mollitia eos sint at. Minima tempore inventore ducimus corrupti harum ex, expedita optio est obcaecati necessitatibus fugit aut, quibusdam repellat recusandae alias.
+							</p>
+							<p>
+								<em>Lorem ipsum</em> dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper consequat id at felis. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
+							</p>
+							<h2>Donec ac orci lorem. Aenean venenatis molestie</h2>
+							<p>
+								Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Mollitia eos sint at. Minima tempore inventore ducimus corrupti harum ex, expedita optio est obcaecati necessitatibus fugit aut, quibusdam repellat recusandae alias.
+							</p>
+							<figure class="figure-img">
+								<img src="assets/images/post-4.jpg" alt="">
+							</figure>
+							<p>
+								<em>Lorem ipsum</em> dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper consequat id at felis. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
+							</p>
+							<p>
+								<em>Lorem ipsum</em> dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper consequat id at felis. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
+							</p>
+							<figure class="figure-img center-img" style="max-width: 300px;">
+								<img src="assets/images/post-11.jpg" alt="">
+								<figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption>
+							</figure>
+							<p>
+								<em>Lorem ipsum</em> dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper consequat id at felis. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
+							</p>
+							<ul>
+								<li>Nullam id leo ipsum</li>
+								<li>Lorem ipsum dolor sit amet</li>
+								<li>Maecenas cursus enim viverra</li>
+								<li>Phasellus ac ornare</li>
+							</ul>
+							<p>
+								Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Mollitia eos sint at. Minima tempore inventore ducimus corrupti harum ex, expedita optio est obcaecati necessitatibus fugit aut, quibusdam repellat recusandae alias.
+							</p>
+							<h3>Donec ac orci lorem. Aenean venenatis molestie dignissim.</h3>
+							<p>
+								Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Mollitia eos sint at. Minima tempore inventore ducimus corrupti harum ex, expedita optio est obcaecati necessitatibus fugit aut, quibusdam repellat recusandae alias.
+							</p>
+							<blockquote>
+								I have heard the argument that lorem ipsum is effective in wireframing or design because it helps people focus on the actual layout, or color scheme, or whatever. What kills me here is that we’re talking about creating a user experience that will (whether we like it or not) be DRIVEN by words. The entire structure of the page or app flow is FOR THE WORDS.
+							</blockquote>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper <a href="#">consequat id at felis</a>. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
+							</p>
+							<figure class="figure-img left-img" style="max-width: 300px;">
+								<img src="assets/images/post-9.jpg" alt="">
+								<figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption>
+							</figure>
+							<p>
+								Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Mollitia eos sint at. Minima tempore inventore ducimus corrupti harum ex, expedita optio est obcaecati necessitatibus fugit aut, quibusdam repellat recusandae alias.
+							</p>
+							<p>
+								Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Mollitia eos sint at. Minima tempore inventore ducimus corrupti harum ex, expedita optio est obcaecati necessitatibus fugit aut, quibusdam repellat recusandae alias.
+							</p>
+							<ol>
+								<li>Nullam id leo ipsum</li>
+								<li>Lorem ipsum dolor sit amet</li>
+								<li>Maecenas cursus enim viverra</li>
+								<li>Phasellus ac ornare</li>
+							</ol>
+							<h4>Vestibulum vel ullamcorper tellus</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia eos sint at. Minima tempore inventore ducimus corrupti harum ex, expedita optio est <del>obcaecati necessitatibus</del> fugit aut, quibusdam repellat recusandae alias.
+							</p>
+							<h5>Vestibulum vel ullamcorper tellus</h5>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper consequat id at felis. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
+							</p>
+							<figure class="figure-img right-img" style="max-width: 300px;">
+								<img src="assets/images/post-9.jpg" alt="">
+								<figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption>
+							</figure>
+							<p>
+								Lorem ipsum dolor sit amet, <mark>consectetur</mark> adipisicing elit. Mollitia eos sint at. Minima tempore inventore ducimus corrupti harum ex, expedita optio est obcaecati necessitatibus fugit aut, quibusdam repellat recusandae alias.
+							</p>
+							<table class="table table-dark">
+								<thead>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">First</th>
+										<th scope="col">Last</th>
+										<th scope="col">Handle</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">1</th>
+										<td>Mark</td>
+										<td>Otto</td>
+										<td>@mdo</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Jacob</td>
+										<td>Thornton</td>
+										<td>@fat</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Larry</td>
+										<td>the Bird</td>
+										<td>@twitter</td>
+									</tr>
+								</tbody>
+							</table>
+							<h6>Donec ac orci lorem. Aenean venenatis molestie dignissim.</h6>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper consequat id at felis. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
+							</p>
+						</div>
+					</div>
+					<!-- end main-post -->
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal -->
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
