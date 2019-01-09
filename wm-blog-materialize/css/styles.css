@@ -115,6 +115,14 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
+	height: auto;
+	line-height: normal;
+}
+.btn{
+	padding: .375rem .75rem;
+    font-size: 1rem;
+    text-transform: none;
+    font-weight: normal;
 }
 .btn:hover,
 .btn:focus{
@@ -122,6 +130,11 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
 }
 .btn-sm{
 	font-size: .8em;
+	padding: .25rem .5rem;
+}
+.btn-lg{
+	padding: .5rem 1rem;
+    font-size: 1.25rem;
 }
 .btn-primary, .badge-primary{
 	border-color: #77c4d3;
@@ -817,4 +830,62 @@ nav ul a{
 	.ads-box{
 		padding: .5em;
 	}
+}
+
+
+
+.list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    color: #daede2;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    border: 1px solid rgba(0,0,0,.125);
+    background: #414656;
+    border-color: #747780;
+}
+.list-group-flush .list-group-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+.list-group-flush:last-child .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.sidebar .list-group-item:first-child {
+    border-top: none;
+}
+.sidebar .list-group-item {
+    font-size: .9em;
+}
+.sidebar .list-group-item a:hover{
+	text-decoration: underline;
+}
+.sidebar .list-group-item > small {
+    float: right;
+    font-size: 80%;
+    margin-top: .2em;
+    font-weight: 400;
+}
+
+
+.list-tags{
+	padding: 0;
+	margin: 0;
+}
+.list-tags li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: .3em;
 }
