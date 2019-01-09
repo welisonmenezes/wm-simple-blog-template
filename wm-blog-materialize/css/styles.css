@@ -933,3 +933,34 @@ main.main{
 		margin-bottom: 2em;
 	}
 }
+
+
+.modal{
+	width: 80%;
+	max-height: 90% !important;
+}
+.modal-content{
+	background: #272a36;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.modal-header{
+	border-bottom: solid 1px #333745;
+}
+.modal-footer{
+	border-top: solid 1px #333745;
+}
+.modal-header,
+.modal-footer{
+	background-color: #272a36 !important;
+}
+.modal-content .close{
+	color: #fff !important;
+}
+
+@media (max-width: 600px) {
+	.modal{
+		padding: 0 !important;
+	}
+}

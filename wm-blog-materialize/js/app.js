@@ -13,3 +13,8 @@ $('.navbar-toggler').on('click', function(){
 		});
 	}
 });
+
+$('.modal').modal({
+	startingTop: '5%',
+	endingTop: '5%'
+});
