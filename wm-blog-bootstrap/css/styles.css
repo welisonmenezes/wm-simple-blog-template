@@ -327,7 +327,7 @@ main.main{
 	padding: 1em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 	.hot-post-left{
 		padding-right: 15px;
 	}

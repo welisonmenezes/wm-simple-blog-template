@@ -73,6 +73,7 @@ h6, .h6 {
 	width: 100%;
 	max-width: 1140px;
 }
+
 @media (max-width: 1200px){
 	.container{
 		max-width: 90%;
@@ -386,7 +387,7 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
 
 .hot-post{
 	padding-top: 2em;
-	padding-bottom: 4em;
+	padding-bottom: 3em;
 }
 .hot-post .post-body{
 	position: absolute;
@@ -403,10 +404,9 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
 }
 .hot-post-left{
 	padding-right: 5px !important;
-	padding-left: 10px !important;
 }
 .hot-post-right{
-	padding-left: 0 !important;
+	padding-left: 1px !important;
 }
 
 .hot-post-right h3{
@@ -482,4 +482,100 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
 	list-style: none;
 	display: inline-block;
 	margin-right: 15px;
+}
+
+
+.section-title {
+    position: relative;
+}
+.section-title:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background-color: #747780;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 13px;
+    z-index: 1;
+}
+.section-title .title {
+    background: #333745;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 300;
+    position: relative;
+    display: inline-block;
+    padding-right: .5em;
+    z-index: 2;
+}
+
+
+.recent-post{
+	margin-bottom: 4em;
+}
+.recent-post .ads-box{
+	padding: 1em;
+}
+.recent-post .card{
+	background: #414656;
+	color: #daede2;
+	margin: 0;
+}
+.recent-post .card a{
+	color: #daede2;	
+}
+.recent-post .card a:hover,
+.recent-post .card a:focus{
+	text-decoration: none;
+	color: #ea2e49;
+}
+.recent-post .card .post-meta li{
+	color: #8188a0;
+}
+.recent-post .mb-15{
+	margin-bottom: 15px;
+}
+.recent-post .card-title{
+	margin-bottom: .3em;
+}
+.recent-post .card-title{
+	font-size: 1.2rem !important;
+}
+.recent-post .row{
+	margin-bottom: .75rem;
+}
+.recent-post .row .col-left{
+	padding-right: 5px;
+}
+.recent-post .row .col-right{
+	padding-left: 5px; 
+}
+
+@media (max-width: 768px) {
+	.recent-post .row{
+		margin-bottom: 0;
+	}
+	.recent-post .row > div{
+		margin-bottom: 15px;
+	}
+	.recent-post .row .col-left{
+		padding-right: 15px;
+	}
+	.recent-post .row .col-right{
+		padding-left: 15px; 
+	}
+}
+@media (max-width: 576px) {
+	.recent-post .ads-box{
+		padding: .5em;
+	}
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
 }
