@@ -547,6 +547,11 @@ nav ul a{
 }
 
 
+main.main{
+	min-height: 300px;
+	padding-bottom: 4em;
+}
+
 .hot-post{
 	padding-top: 2em;
 	padding-bottom: 3em;
@@ -725,6 +730,9 @@ nav ul a{
 	.recent-post .row > div{
 		margin-bottom: 15px;
 	}
+	.recent-post .row > div.l12{
+		width: 100%;
+	}
 	.recent-post .row .col-left{
 		padding-right: 15px;
 	}
@@ -748,6 +756,24 @@ nav ul a{
 
 .sidebar .section-title {
     margin-bottom: 12px;
+}
+.sidebar .row {
+    margin-bottom: 2em;
+}
+.sidebar .list-group-item:first-child {
+    border-top: none;
+}
+.sidebar .list-group-item {
+    font-size: .9em;
+}
+.sidebar .list-group-item a:hover{
+	text-decoration: underline;
+}
+.sidebar .list-group-item > small {
+    float: right;
+    font-size: 80%;
+    margin-top: .2em;
+    font-weight: 400;
 }
 @media (max-width: 992px) {
 	.sidebar .row > div{
@@ -862,22 +888,6 @@ nav ul a{
     border-bottom: 0;
 }
 
-.sidebar .list-group-item:first-child {
-    border-top: none;
-}
-.sidebar .list-group-item {
-    font-size: .9em;
-}
-.sidebar .list-group-item a:hover{
-	text-decoration: underline;
-}
-.sidebar .list-group-item > small {
-    float: right;
-    font-size: 80%;
-    margin-top: .2em;
-    font-weight: 400;
-}
-
 
 .list-tags{
 	padding: 0;
@@ -888,4 +898,38 @@ nav ul a{
 	display: inline-block;
 	vertical-align: middle;
 	margin-bottom: .3em;
+}
+
+
+.featured-posts .section-title{
+	margin-bottom: 1em;
+}
+.featured-posts .post-img{
+	margin-bottom: .5em;
+}
+.featured-posts .post-title{
+	font-size: 1.2em;
+}
+.featured-posts.small{
+	font-size: .9em;
+}
+.featured-posts.small .row{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.featured-posts.small .row > div{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media (max-width: 992px) {
+	.featured-posts .row > div.l12{
+		margin-bottom: 0;
+		width: 100%;
+	}
+}
+@media (max-width: 600px) {
+	.featured-posts .row > div{
+		margin-bottom: 2em;
+	}
 }
