@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -16,51 +16,71 @@
 	<header class="header-main">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<nav class="navbar navbar-dark navbar-expand-md">
-						<a href="index.html" class="navbar-brand">
-							<img src="assets/images/mylogo.svg" alt="Logo">
-						</a>
-						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-				          <span class="navbar-toggler-icon"></span>
-				        </button>
-				        <div id="navbarMain" class="collapse navbar-collapse">
-				        	<ul class="navbar-nav mr-auto">
-				        		<li class="nav-item">
-				        			<a href="index.html" class="nav-link">Home</a>
-				        		</li>
-				        		<li class="nav-item dropdown">
-				        			<a class="dropdown-toggle nav-link active" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Pages</a>
-				        			<div class="dropdown-menu rounded-0 border-0" aria-labelledby="dropdown01">
-				        				<a class="dropdown-item" href="blog-post.html">Blog Post</a>
-				        				<a class="dropdown-item active" href="blog-list.html">Blog List</a>
-									    <a class="dropdown-item" href="page-404.html">404 Page</a>
-									    <a class="dropdown-item" href="materialize-elements.html">Bootstrap Elements</a>
-									</div>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="about.html" class="nav-link">About</a>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="contact.html" class="nav-link">Contact</a>
-				        		</li>
-				        	</ul>
-				        	<form class="form-inline" role="search">
-				            	<input class="search form-control rounded-0" type="text" title="Enter search query here.." placeholder="Search.." aria-label="Search">
-				            </form>
-				            <ul class="navbar-nav navbar-social">
-				        		<li class="nav-item">
-				        			<a href="#" class="nav-link">
-				        				<i class="fab fa-github"></i>
-				        			</a>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="#" class="nav-link">
-				        				<i class="fab fa-linkedin"></i>
-				        			</a>
-				        		</li>
-				        	</ul>
-				        </div>
+				<div class="col s12">
+					<nav class="navbar">
+						<div class="row">
+							<div class="col m1 s12">
+								<a href="index.html" class="waves-effect waves-light header-brand">
+									<img src="assets/images/mylogo.svg" alt="Logo">
+								</a>
+								<button class="navbar-toggler" type="button">
+						        	<i class="fa fa-bars"></i>
+						        </button>
+							</div>
+							<div class="col m11 s12">
+								<div id="navbarMain">
+						        	<div class="row">
+						        		<div class="col s7">
+						        			<ul class="nav-main">
+								        		<li>
+								        			<a href="index.html">Home</a>
+								        		</li>
+								        		<li class="dropdown">
+								        			<a class="dropdown-trigger active" data-target="dropdown01">Other Pages</a>
+								        			<ul id="dropdown01" class="dropdown-content">
+								        				<li>
+								        					<a href="blog-post.html">Blog Post</a>
+								        				</li>
+								        				<li>
+								        					<a href="blog-list.html" class="active">Blog List</a>
+								        				</li>
+								        				<li>
+								        					<a href="page-404.html">404 Page</a>
+								        				</li>
+								        				<li>
+								        					<a href="materialize-elements.html">Materialize Elements</a>
+								        				</li>
+								        			</ul>
+								        		</li>
+								        		<li>
+								        			<a href="about.html">About</a>
+								        		</li>
+								        		<li>
+								        			<a href="contact.html">Contact</a>
+								        		</li>
+								        	</ul>
+						        		</div>
+						        		<div class="col s5 right-align">
+							        		<form class="form-inline" role="search">
+								            	<input class="form-control" type="text" title="Enter search query here.." placeholder="Search..">
+								            </form>
+							            	<ul class="navbar-social">
+								        		<li>
+								        			<a href="#">
+								        				<i class="fab fa-github"></i>
+								        			</a>
+								        		</li>
+								        		<li>
+								        			<a href="#">
+								        				<i class="fab fa-linkedin"></i>
+								        			</a>
+								        		</li>
+								        	</ul>
+							            </div>
+						        	</div>
+						        </div>
+							</div>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -594,52 +614,52 @@
 	<footer class="footer-main">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">
+				<div class="col m4">
+					<ul class="collection">
+						<li class="collection-item">
 							<a href="index.html" class="footer-brand">
 								<img src="assets/images/mylogo.svg" alt="Logo">
 							</a>
 						</li>
-						<li class="list-group-item">
+						<li class="collection-item">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex accusamus cupiditate molestias aliquid quam consequatur.</p>
 							<p>&copy; Welison Menezes 2019</p>
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">
+				<div class="col m4">
+					<ul class="collection">
+						<li class="collection-item">
 							<h4>Most Commented</h4>
 						</li>
-						<li class="list-group-item">
+						<li class="collection-item">
 							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
 							<small>Jan 25, 2018</small>
 						</li>
-						<li class="list-group-item">
+						<li class="collection-item">
 							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
 							<small>Jan 25, 2018</small>
 						</li>
-						<li class="list-group-item">
+						<li class="collection-item">
 							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
 							<small>Jan 25, 2018</small>
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item">
+				<div class="col m4">
+					<ul class="collection">
+						<li class="collection-item">
 							<h4>Best Rated</h4>
 						</li>
-						<li class="list-group-item">
+						<li class="collection-item">
 							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
 							<small>Jan 25, 2018</small>
 						</li>
-						<li class="list-group-item">
+						<li class="collection-item">
 							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
 							<small>Jan 25, 2018</small>
 						</li>
-						<li class="list-group-item">
+						<li class="collection-item">
 							<a href="blog-post.html">Lorem ipsum dolor sit amet</a>
 							<small>Jan 25, 2018</small>
 						</li>
@@ -650,21 +670,21 @@
 		<div class="dark-bar">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8">
+					<div class="col s9">
 						<ul class="nav-footer">
 							<li>
-								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Terms &amp; Conditions</a>
+								<a href="#modal1" class="modal-trigger">Terms &amp; Conditions</a>
 							</li>
 							<li>
-								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy policy</a>
+								<a href="#modal1" class="modal-trigger">Privacy policy</a>
 							</li>
 							<li>
 								<a href="contact.html">Contact us</a>
 							</li>
 						</ul>
 					</div>
-					<div class="col-sm-4">
-						<ul class="nav-footer text-right">
+					<div class="col s3">
+						<ul class="nav-footer right-align">
 							<li>
 								<a href="#">
 									<i class="fab fa-github"></i>
@@ -684,12 +704,12 @@
 	<!-- end footer-main -->
 
 	<!-- modal -->
-	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
+	<div class="modal" id="modal1">
+		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<button type="button" class="modal-close">
 						<i class="fa fa-times"></i>
 					</button>
 				</div>
@@ -813,7 +833,7 @@
 					<!-- end main-post -->
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-secondary modal-close" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
@@ -821,7 +841,7 @@
 	<!-- end modal -->
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
