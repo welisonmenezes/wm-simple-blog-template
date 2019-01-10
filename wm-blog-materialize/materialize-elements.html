@@ -7,6 +7,23 @@
 	<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<style>
+		.section-title{
+			margin-bottom: 1em;
+		}
+		.main{
+			padding-top: 2em;
+		}
+		.main .row > div{
+			margin-bottom: 2em;
+		}
+		.btn{
+			margin-bottom: .5em;
+		}
+		.badge{
+			float: none !important;
+		}
+	</style>
 </head>
 <body>
 	
@@ -90,7 +107,7 @@
 	<main class="main">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col l4">
 					<div class="section-title">
 						<h3 class="title">Buttons</h3>
 					</div>
@@ -104,7 +121,7 @@
 					<button type="button" class="btn btn-dark">Dark</button>
 					<button type="button" class="btn btn-link">Link</button>
 				</div>
-				<div class="col-md-4">
+				<div class="col l4">
 					<div class="section-title">
 						<h3 class="title">Outline Buttons</h3>
 					</div>
@@ -117,7 +134,7 @@
 					<button type="button" class="btn btn-outline-light">Light</button>
 					<button type="button" class="btn btn-outline-dark">Dark</button>
 				</div>
-				<div class="col-md-4">
+				<div class="col l4">
 					<div class="section-title">
 						<h3 class="title">Badges</h3>
 					</div>
@@ -132,7 +149,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col l12">
 					<div class="section-title">
 						<h3 class="title">Alerts</h3>
 					</div>
@@ -163,7 +180,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col l6">
 					<div class="section-title">
 						<h3 class="title">Headings</h3>
 					</div>
@@ -174,7 +191,7 @@
 					<h5>h5. Bootstrap heading</h5>
 					<h6>h6. Bootstrap heading</h6>
 				</div>
-				<div class="col-md-6">
+				<div class="col l6">
 					<div class="section-title">
 						<h3 class="title">Inline text elements</h3>
 					</div>
@@ -189,7 +206,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col l12">
 					<div class="section-title">
 						<h3 class="title">Tables</h3>
 					</div>
@@ -226,7 +243,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col l12">
 					<div class="section-title">
 						<h3 class="title">Tables</h3>
 					</div>
@@ -263,7 +280,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col l6">
 					<div class="section-title">
 						<h3 class="title">Pagination</h3>
 					</div>
@@ -287,7 +304,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-md-6">
+				<div class="col l6">
 					<div class="section-title">
 						<h3 class="title">Spinners</h3>
 					</div>
@@ -318,7 +335,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col l6">
 					<div class="section-title">
 						<h3 class="title">Slides only</h3>
 					</div>
@@ -336,7 +353,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col l6">
 					<div class="section-title">
 						<h3 class="title">With controls</h3>
 					</div>
@@ -369,7 +386,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col l4">
 					<div class="section-title">
 						<h3 class="title">Forms</h3>
 					</div>
@@ -390,27 +407,27 @@
 						<button type="submit" class="btn btn-primary">Submit</button>
 					</form>
 				</div>
-				<div class="col-md-8">
+				<div class="col l8">
 					<div class="section-title">
 						<h3 class="title">Forms Feedback</h3>
 					</div>
 					<form>
 						<div class="form-row">
-							<div class="col-md-4 mb-3">
+							<div class="col l4 mb-3">
 								<label for="validationServer01">First name</label>
 								<input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
 								<div class="valid-feedback">
 									Looks good!
 								</div>
 							</div>
-							<div class="col-md-4 mb-3">
+							<div class="col l4 mb-3">
 								<label for="validationServer02">Last name</label>
 								<input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
 								<div class="valid-feedback">
 									Looks good!
 								</div>
 							</div>
-							<div class="col-md-4 mb-3">
+							<div class="col l4 mb-3">
 								<label for="validationServerUsername">Username</label>
 								<div class="input-group">
 									<div class="input-group-prepend">
@@ -424,21 +441,21 @@
 							</div>
 						</div>
 						<div class="form-row">
-							<div class="col-md-6 mb-3">
+							<div class="col l6 mb-3">
 								<label for="validationServer03">City</label>
 								<input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
 								<div class="invalid-feedback">
 									Please provide a valid city.
 								</div>
 							</div>
-							<div class="col-md-3 mb-3">
+							<div class="col l3 mb-3">
 								<label for="validationServer04">State</label>
 								<input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
 								<div class="invalid-feedback">
 									Please provide a valid state.
 								</div>
 							</div>
-							<div class="col-md-3 mb-3">
+							<div class="col l3 mb-3">
 								<label for="validationServer05">Zip</label>
 								<input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
 								<div class="invalid-feedback">
