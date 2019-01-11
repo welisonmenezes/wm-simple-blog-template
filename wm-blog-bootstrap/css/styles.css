@@ -58,6 +58,7 @@ textarea{
 .alert-primary{
 	background: #bbe1e9;
 	border-color: #77c4d3;
+	color: #272a36;
 }
 .alert-secondary{
 	background: #a5a6ab;
@@ -497,6 +498,11 @@ main.main{
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
+}
+.btn{
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
 }
 .btn-sm{
 	font-size: .8em;
