@@ -32,9 +32,12 @@ img{
 	max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, ul, ol, div, blockquote, form{
+h1, h2, h3, h4, h5, h6, ul, ol, div, blockquote, form, p{
 	padding: 0;
 	margin: 0;
+}
+p{
+	margin-bottom: 1rem;
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -123,6 +126,10 @@ form .row > div{
 	color: #daede2;
 	border-bottom: solid 1px #daede2 !important;
 	height: 37px !important;
+}
+textarea.form-control{
+	border: none;
+	padding-top: .5em !important;
 }
 .form-control:focus{
 	background: #fff !important;
@@ -1279,4 +1286,64 @@ main.main{
 }
 .btn-next-prev i{
 	text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+}
+
+
+.contact-text,
+.form-contact{
+	max-width: 90%;
+}
+.contact-text{
+	margin-bottom: 2em;
+}
+.contact-text .section-title{
+	margin-bottom: 1em;
+}
+.form-contact .row > div{
+	margin-bottom: 1em;
+}
+.contact-info p{
+	margin-bottom: .5em;
+}
+
+@media (max-width: 992px) {
+	.contact-text,
+	.form-contact{
+		max-width: none;
+	}
+}
+
+.single-header{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+.single-header h2{
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+.single-header p{
+	font-size: .8em;
+	margin-bottom: 0;
+}
+.single-header .row{
+	margin-bottom: 0;
+}
+
+.social-links{
+	padding: 0;
+	font-size: 1.8em;
+}
+.social-links li{
+	list-style: none;
+	display: inline-block;
+	margin-right: .4em;
+}
+.social-links li a{
+	color: #daede2;
+}
+.social-links li a:hover,
+.social-links li a:focus{
+	color: #77c4d3;
 }
