@@ -581,6 +581,7 @@ main.main{
 .btn-outline-secondary{
 	border-color: #4b4d57;
 	color: #4b4d57;
+	color: #fff;
 }
 .btn-outline-secondary:hover,
 .btn-outline-secondary:focus{
