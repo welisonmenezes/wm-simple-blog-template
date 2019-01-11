@@ -461,7 +461,7 @@ nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{
     border-color: rgba(255,255,255,.1);
     float: right;
     position: relative;
-    top: 5px;
+    top: 0;
     cursor: pointer;
 }
 .navbar-toggler:focus{
@@ -1040,8 +1040,7 @@ main.main{
 }
 .table td, .table th{
 	border-color: #daede2 !important;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: .75rem;
 }
 .table-dark{
 	border-color: #1e202a !important;
@@ -1103,6 +1102,9 @@ main.main{
 .nav-pagination{
 	display: inline-block;
 }
+.pagination li{
+	min-height: 41px;
+}
 
 .page-link,
 .pagination li a{
@@ -1159,4 +1161,40 @@ main.main{
 }
 .spinner-dark{
 	border-color: #1e202a !important;
+}
+
+
+.carousel-wrap{
+	overflow: hidden;
+	position: relative;
+}
+.carousel .carousel-item{
+	width: 100%;
+}
+
+.btn-next-prev{
+	background: transparent;
+	color: #fff;
+	border: none;
+	font-size: 2.2em;
+	cursor: pointer;
+	opacity: .7;
+	position: absolute;
+	top: 42%;
+	z-index: 9;
+}
+.btn-next-prev.prev{
+	left: .5em;
+}
+.btn-next-prev.next{
+	right: .5em;
+}
+.btn-next-prev:hover{
+	opacity: 1;
+}
+.btn-next-prev:focus{
+	background: transparent;
+}
+.btn-next-prev i{
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
 }
