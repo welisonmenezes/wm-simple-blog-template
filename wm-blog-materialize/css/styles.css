@@ -1359,3 +1359,39 @@ main.main{
 .social-links li a:focus{
 	color: #77c4d3;
 }
+
+.error-404{
+	padding-top: 2rem;
+}
+.error-404 .label{
+	display: block;
+	font-size: 12rem;
+	line-height: 12rem;
+	color: #404556;
+}
+
+.page-404 .sidebar{
+	padding-top: 2rem;
+}
+.page-404 .form-sidebar{
+	padding-top:5px;
+}
+.page-404 .form-sidebar h6{
+	margin-bottom: 3em;
+}
+@media (max-width: 768px) {
+	.error-404 .label{
+		font-size: 9rem;
+		line-height: 9rem;
+	}
+}
+@media (max-width: 600px) {
+	.error-404,
+	.page-404 .sidebar{
+		text-align: center;
+	}
+	.error-404 .label{
+		font-size: 9rem;
+		line-height: 9rem;
+	}
+}
