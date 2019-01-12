@@ -80,6 +80,10 @@ label {
     color: #fff;
 }
 
+figure {
+ margin: 0 0 0 0;
+}
+
 .container{
 	width: 100%;
 	max-width: 1140px;
@@ -93,8 +97,10 @@ label {
 @media (max-width: 600px){
 	.container{
 		max-width: 510px;
-		padding-left: 15px;
-		padding-right: 15px;
+		/*padding-left: 15px;
+		padding-right: 15px;*/
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
@@ -693,6 +699,12 @@ nav ul a{
 	background: transparent;
 	border-bottom: solid 1px #333745;
 	padding: .75rem 1.25rem;
+}
+@media (max-width: 600px) {
+	.collection .collection-item{
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 .nav-footer li {
