@@ -1269,8 +1269,12 @@ main.main{
 }
 
 
+.carousel{
+	height: auto;
+	min-height: 158px;
+}
 .carousel-wrap{
-	overflow: hidden;
+	/*overflow: hidden;*/
 	position: relative;
 }
 .carousel .carousel-item{
@@ -1285,7 +1289,7 @@ main.main{
 	cursor: pointer;
 	opacity: .7;
 	position: absolute;
-	top: 42%;
+	top: 40%;
 	z-index: 9;
 }
 .btn-next-prev.prev{
