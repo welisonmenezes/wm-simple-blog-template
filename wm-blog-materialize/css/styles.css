@@ -1689,3 +1689,30 @@ main.main{
 .page-category .hot-post {
     padding-bottom: 0;
 }
+
+
+.modal-header{
+	padding-bottom: 1rem;
+}
+.modal-footer{
+	padding-top: 1rem !important;
+}
+.modal-header .modal-close{
+	background: transparent;
+	border: none;
+	color: #fff;
+	padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .5;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+@media (max-width: 600px) {
+	.modal{
+		width: 96%;
+	}
+}
