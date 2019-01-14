@@ -22,12 +22,8 @@ $('.nav-main li').on('click', function(){
 	var t = $(this);
 	var nav = t.find('.menu');
 	if(t.hasClass('opened')){
-		nav.slideUp(300, function(){
 			t.removeClass('opened');
-		});
 	}else{
-		t.slideDown(300, function() {
 			t.addClass('opened');
-		});
 	}
 });

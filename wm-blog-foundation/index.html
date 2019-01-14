@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" href="node_modules/foundation-sites/dist/css/foundation.min.css">
+	<link rel="stylesheet" href="node_modules/foundation-sites/dist/css/foundation-float.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -15,11 +16,11 @@
 	<!-- header-main -->
 	<header class="header-main">
 		<div class="container">
-			<div class="grid-x grid-padding-x">
-				<div class="cell small-12">
+			<div class="row">
+				<div class="columns medium-12">
 					<nav class="navbar">
-						<div class="grid-x grid-padding-x">
-							<div class="cell small-1">
+						<div class="row">
+							<div class="columns medium-1">
 								<a href="index.html" class="waves-effect waves-light header-brand">
 									<img src="assets/images/mylogo.svg" alt="Logo">
 								</a>
@@ -27,10 +28,10 @@
 						        	<i class="fa fa-bars"></i>
 						        </button>
 							</div>
-							<div class="cell small-11">
+							<div class="columns medium-11">
 								<div id="navbarMain">
-						        	<div class="grid-x grid-padding-x">
-						        		<div class="cell small-7">
+						        	<div class="row">
+						        		<div class="columns medium-7">
 						        			<ul class="nav-main dropdown menu" data-dropdown-menu>
 								        		<li>
 								        			<a href="index.html" class="active">Home</a>
@@ -60,7 +61,7 @@
 								        		</li>
 								        	</ul>
 						        		</div>
-						        		<div class="cell small-5 text-right">
+						        		<div class="columns medium-5 text-right">
 							        		<form class="form-inline" role="search">
 								            	<input class="form-control" type="text" title="Enter search query here.." placeholder="Search..">
 								            </form>
@@ -751,7 +752,7 @@
 	<footer class="footer-main">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="columns medium-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item">
 							<a href="index.html" class="footer-brand">
@@ -764,7 +765,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="columns medium-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item">
 							<h4>Most Commented</h4>
@@ -783,7 +784,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="columns medium-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item">
 							<h4>Best Rated</h4>
@@ -807,7 +808,7 @@
 		<div class="dark-bar">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8">
+					<div class="columns medium-8">
 						<ul class="nav-footer">
 							<li>
 								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Terms &amp; Conditions</a>
@@ -820,7 +821,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-sm-4">
+					<div class="columns medium-4">
 						<ul class="nav-footer text-right">
 							<li>
 								<a href="#">
@@ -841,7 +842,7 @@
 	<!-- end footer-main -->
 
 	<!-- modal -->
-	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="display: none;">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">

@@ -6,6 +6,22 @@ body, html{
 	color: #fff;
 }
 
+ul li, ol li{
+	list-style: none;
+}
+
+a{
+	color: #77c4d3;
+}
+a:hover, a:focus{
+	color: #77c4d3;
+	text-decoration: underline;
+}
+
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+}
 
 .container{
 	width: 100%;
@@ -117,6 +133,7 @@ body, html{
 .header-main a:hover,
 .header-main a:focus{
 	color: #77c4d3 !important;
+	text-decoration: none;
 }
 .header-main a.active{
 	background: #77c4d3 !important;
@@ -164,7 +181,7 @@ body, html{
 		display: none;
 	}
 
-	.header-main .cell{
+	.header-main .columns{
 		width: 100%;
 	}
 	.header-main .form-inline{
@@ -211,4 +228,90 @@ body, html{
 }
 .header-brand img{
 	width: 100%;
+}
+
+
+.footer-main{
+	background: #272a36;
+	color: #daede2;
+    padding-top: 2rem;
+}
+.footer-main > .container{
+	padding-bottom: 2rem;
+}
+.footer-main a:hover{
+	text-decoration: underline;
+}
+.footer-main .collection-item > small {
+    display: block;
+    color: #73767f;
+}
+.footer-main .collection-item h4{
+	font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-main .dark-bar {
+    background: #1e202a;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.footer-main .list-group-item h4 {
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-main .list-group-item > small {
+    display: block;
+    color: #73767f;
+}
+
+@media (max-width: 640px){
+	.footer-main .row > div{
+		width: 100% !important;
+	}
+	.footer-main .nav-footer{
+		text-align: left !important;
+	}
+}
+
+.footer-brand{
+}
+.footer-brand img{
+	width: 60px;
+}
+
+
+
+
+.list-group{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
+    color: #daede2;
+    padding: 0;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #333745;
+    background: transparent;
+    padding-left: 0;
+}
+.list-group-flush:last-child .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.nav-footer li {
+    display: inline-block;
+    margin-right: 15px;
+    list-style: none;
+    font-size: 0.8em;
 }
