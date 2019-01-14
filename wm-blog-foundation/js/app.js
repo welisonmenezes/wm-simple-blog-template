@@ -1,4 +1,6 @@
-var elem = new Foundation.DropdownMenu($('.nav-main.dropdown.menu'), {});
+new Foundation.DropdownMenu($('.nav-main.dropdown.menu'), {});
+
+new Foundation.Reveal($('.modal.reveal'), {});
 
 
 // init toogle navbar (responsive small)
