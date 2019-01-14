@@ -80,6 +80,27 @@ body, html{
 .navbar-toggler{
 	display: none;
 }
+.navbar-toggler {
+    padding: .35rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+    position: absolute;
+    right: .9375rem;
+    top: 12px;
+    cursor: pointer;
+}
+.navbar-toggler:focus{
+	background: transparent;
+}
+.navbar-toggler i{
+	height: auto;
+	line-height: normal;
+}
 
 .header-main{
 	background: #272a36;
@@ -88,6 +109,7 @@ body, html{
 }
 .header-main > .container{
 	padding-top: 10px;
+	position: relative;
 }
 .header-main a{
 	color: #daede2 !important;
@@ -129,6 +151,55 @@ body, html{
 }
 .header-main .navbar-social li a{
 	padding: 0 .4rem;
+}
+
+@media (min-width: 810px){
+	#navbarMain{
+		display: block !important;
+	}
+}
+@media (max-width: 810px){
+	#navbarMain{
+		padding-top: 30px;
+		display: none;
+	}
+
+	.header-main .cell{
+		width: 100%;
+	}
+	.header-main .form-inline{
+		display: block;
+	}
+	.header-main .form-inline .form-control{
+		position: static;
+		display: block;
+		max-width: none;
+		width: 100% !important;
+	}
+	.header-main .navbar-social{
+		display: block;
+		text-align: left;
+		margin-left: 0;
+		padding-top: 0;
+	}
+	
+	.nav-main{
+		display: block;
+	}
+	.nav-main li{
+		display: block;
+	}
+	.nav-main .menu{
+		position: static;
+		display: none !important;
+	}
+	.nav-main li.opened .menu{
+		display: block !important;
+	}
+
+	.navbar-toggler{
+		display: block;
+	}
 }
 
 
