@@ -1,0 +1,1 @@
+var elem = new Foundation.DropdownMenu($('.nav-main.dropdown.menu'), {});
