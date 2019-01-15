@@ -236,6 +236,19 @@ textarea{
 	.navbar .navbar-nav.navbar-social{
 		margin-left: 0;
 	}
+	.navbar-nav{
+		margin-bottom: 1rem;
+	}
+	.navbar-nav.navbar-social{
+		margin-bottom: .5rem;
+	}
+	.navbar-nav .nav-link{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	.form-inline{
+		margin-bottom: 1rem;
+	}
 }
 
 

@@ -507,6 +507,7 @@ textarea.form-control{
 @media (max-width: 600px){
 	.header-main .form-inline{
 		display: block;
+		margin-bottom: 1rem;
 	}
 	.header-main .form-inline .form-control{
 		position: static;
@@ -518,6 +519,8 @@ textarea.form-control{
 		display: block;
 		text-align: left;
 		margin-left: 0;
+		padding-top: 0;
+		padding-bottom: 1rem;
 	}
 }
 
@@ -598,6 +601,7 @@ textarea.form-control{
 	.nav-main li{
 		display: block;
 		width: 100%;
+		float: none;
 	}
 	.nav-main .dropdown .dropdown-content {
 	    display: none;
@@ -608,6 +612,9 @@ textarea.form-control{
 	}
 	.nav-main .dropdown.show .dropdown-content {
 		display: block;
+	}
+	.nav-main{
+		margin-bottom: 1rem;
 	}
 }
 
