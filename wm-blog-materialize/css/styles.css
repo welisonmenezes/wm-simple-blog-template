@@ -1727,3 +1727,20 @@ main.main{
 		width: 96%;
 	}
 }
+
+
+.additional-info{
+	margin-top: 2em;
+	background: #414656;
+}
+.additional-info h5{
+	color: #77c4d3;
+}
+.additional-info .row{
+	margin-right: -5px;
+	margin-left: -5px;
+}
+.additional-info .row > div{
+	padding-right: 5px;
+	padding-left: 5px;
+}
