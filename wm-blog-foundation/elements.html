@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Elements</title>
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/foundation-sites/dist/css/foundation.min.css">
+	<link rel="stylesheet" href="node_modules/foundation-sites/dist/css/foundation-float.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<style>
@@ -28,51 +29,71 @@
 	<header class="header-main">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<nav class="navbar navbar-dark navbar-expand-md">
-						<a href="index.html" class="navbar-brand">
-							<img src="assets/images/mylogo.svg" alt="Logo">
-						</a>
-						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-				          <span class="navbar-toggler-icon"></span>
-				        </button>
-				        <div id="navbarMain" class="collapse navbar-collapse">
-				        	<ul class="navbar-nav mr-auto">
-				        		<li class="nav-item">
-				        			<a href="index.html" class="nav-link">Home</a>
-				        		</li>
-				        		<li class="nav-item dropdown">
-				        			<a class="dropdown-toggle nav-link active" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Pages</a>
-				        			<div class="dropdown-menu rounded-0 border-0" aria-labelledby="dropdown01">
-				        				<a class="dropdown-item" href="blog-post.html">Blog Post</a>
-				        				<a class="dropdown-item" href="blog-list.html">Blog List</a>
-									    <a class="dropdown-item" href="page-404.html">404 Page</a>
-									    <a class="dropdown-item active" href="elements.html">Elements</a>
-									</div>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="about.html" class="nav-link">About</a>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="contact.html" class="nav-link">Contact</a>
-				        		</li>
-				        	</ul>
-				        	<form class="form-inline" role="search">
-				            	<input class="search form-control rounded-0" type="text" title="Enter search query here.." placeholder="Search.." aria-label="Search">
-				            </form>
-				            <ul class="navbar-nav navbar-social">
-				        		<li class="nav-item">
-				        			<a href="#" class="nav-link">
-				        				<i class="fab fa-github"></i>
-				        			</a>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="#" class="nav-link">
-				        				<i class="fab fa-linkedin"></i>
-				        			</a>
-				        		</li>
-				        	</ul>
-				        </div>
+				<div class="columns medium-12">
+					<nav class="navbar">
+						<div class="row">
+							<div class="columns medium-1">
+								<a href="index.html" class="waves-effect waves-light header-brand">
+									<img src="assets/images/mylogo.svg" alt="Logo">
+								</a>
+								<button class="navbar-toggler" type="button">
+						        	<i class="fa fa-bars"></i>
+						        </button>
+							</div>
+							<div class="columns medium-11">
+								<div id="navbarMain">
+						        	<div class="row">
+						        		<div class="columns medium-7">
+						        			<ul class="nav-main dropdown menu" data-dropdown-menu>
+								        		<li>
+								        			<a href="index.html">Home</a>
+								        		</li>
+								        		<li class="dropdown">
+								        			<a href="#" class="active">Other Pages</a>
+								        			<ul class="menu">
+								        				<li>
+								        					<a href="blog-post.html">Blog Post</a>
+								        				</li>
+								        				<li>
+								        					<a href="blog-list.html">Blog List</a>
+								        				</li>
+								        				<li>
+								        					<a href="page-404.html">404 Page</a>
+								        				</li>
+								        				<li>
+								        					<a href="elements.html" class="active">Elements</a>
+								        				</li>
+								        			</ul>
+								        		</li>
+								        		<li>
+								        			<a href="about.html">About</a>
+								        		</li>
+								        		<li>
+								        			<a href="contact.html">Contact</a>
+								        		</li>
+								        	</ul>
+						        		</div>
+						        		<div class="columns medium-5 text-right">
+							        		<form class="form-inline" role="search">
+								            	<input class="form-control" type="text" title="Enter search query here.." placeholder="Search..">
+								            </form>
+							            	<ul class="navbar-social">
+								        		<li>
+								        			<a href="#">
+								        				<i class="fab fa-github"></i>
+								        			</a>
+								        		</li>
+								        		<li>
+								        			<a href="#">
+								        				<i class="fab fa-linkedin"></i>
+								        			</a>
+								        		</li>
+								        	</ul>
+							            </div>
+						        	</div>
+						        </div>
+							</div>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -463,7 +484,7 @@
 	<footer class="footer-main">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="columns medium-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item">
 							<a href="index.html" class="footer-brand">
@@ -476,7 +497,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="columns medium-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item">
 							<h4>Most Commented</h4>
@@ -495,7 +516,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="columns medium-4">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item">
 							<h4>Best Rated</h4>
@@ -519,20 +540,20 @@
 		<div class="dark-bar">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-8">
+					<div class="columns medium-8">
 						<ul class="nav-footer">
 							<li>
-								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Terms &amp; Conditions</a>
+								<a href="#" data-open="exampleModal1">Terms &amp; Conditions</a>
 							</li>
 							<li>
-								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy policy</a>
+								<a href="#" data-open="exampleModal1">Privacy policy</a>
 							</li>
 							<li>
 								<a href="contact.html">Contact us</a>
 							</li>
 						</ul>
 					</div>
-					<div class="col-sm-4">
+					<div class="columns medium-4">
 						<ul class="nav-footer text-right">
 							<li>
 								<a href="#">
@@ -553,7 +574,7 @@
 	<!-- end footer-main -->
 
 	<!-- modal -->
-	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal reveal large" id="exampleModal1">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -690,7 +711,7 @@
 	<!-- end modal -->
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>

@@ -370,6 +370,7 @@ ul li, ol li{
 	background: #1e202a;
 	border: none;
 	padding: .5rem 0;
+	z-index: 99;
 }
 .is-dropdown-submenu li:hover{
 	background: #272a36;
@@ -547,6 +548,7 @@ ul li, ol li{
 .footer-main .dark-bar {
     background: #1e202a;
     padding-top: 15px;
+    padding-bottom: 15px;
     overflow: hidden;
 }
 .footer-main .list-group-item h4 {
