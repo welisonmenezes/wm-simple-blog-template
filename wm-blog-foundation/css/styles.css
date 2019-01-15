@@ -943,3 +943,37 @@ main.main{
 	vertical-align: middle;
 	margin-bottom: .3em;
 }
+
+
+.featured-posts .section-title{
+	margin-bottom: 1em;
+}
+.featured-posts .post-img{
+	margin-bottom: .5em;
+}
+.featured-posts .post-title{
+	font-size: 1.2em;
+}
+.featured-posts.small{
+	font-size: .9em;
+}
+.featured-posts.small .row{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.featured-posts.small .row > div{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media (max-width: 810px) {
+	.featured-posts .row > div.l12{
+		margin-bottom: 0;
+		width: 100%;
+	}
+}
+@media (max-width: 640px) {
+	.featured-posts .row > div{
+		margin-bottom: 2em;
+	}
+}
