@@ -29,3 +29,9 @@ $('.nav-main li').on('click', function(){
 			t.addClass('opened');
 	}
 });
+
+
+$('.orbit').each(function(index, el) {
+	var t = $(this);
+	new Foundation.Orbit(t, {});
+});
