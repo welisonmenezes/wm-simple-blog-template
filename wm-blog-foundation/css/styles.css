@@ -169,6 +169,7 @@ ul li, ol li{
 .btn-secondary, .badge-secondary{
 	border-color: #4b4d57;
 	background: #4b4d57;
+	color: #fff;
 }
 .btn-secondary:hover,
 .btn-secondary:focus{
@@ -1645,4 +1646,45 @@ form .row > div{
 
 .page-category .hot-post {
     padding-bottom: 0;
+}
+
+
+.modal{
+	width: 80% !important;
+	max-height: 90% !important;
+	background: #272a36;
+	outline: none;
+	border: none;
+}
+.modal-content{
+	background: #272a36;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.modal-header{
+	border-bottom: solid 1px #333745;
+}
+.modal-footer{
+	border-top: solid 1px #333745;
+	text-align: right;
+	padding-top: 1rem;
+}
+.modal-header,
+.modal-footer{
+	background-color: #272a36 !important;
+}
+.modal-content .close{
+	color: #fff !important;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+@media (max-width: 600px) {
+	.modal{
+		
+		width: 96% !important;
+		margin: 0 auto;
+	}
 }
