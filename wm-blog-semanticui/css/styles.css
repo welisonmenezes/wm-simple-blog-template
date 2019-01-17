@@ -1,0 +1,57 @@
+body, html{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	background: #333745;
+	color: #fff;
+}
+
+a{
+	color: #77c4d3;
+}
+a:hover, a:focus, a:active{
+	color: #77c4d3;
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.mark, mark{
+	background: #f6f792;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	font-weight: 300;
+}
+
+
+
+.container{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1200px){
+	.container{
+		max-width: 90%;
+	}
+}
+@media (max-width: 600px){
+	.container{
+		max-width: 510px;
+	}
+}
+
+
+
+.header-brand{
+	max-width: 50px;
+	margin-right: 0;
+	padding-top: 4px;
+	display: block;
+}
+.header-brand img{
+	width: 100%;
+}
