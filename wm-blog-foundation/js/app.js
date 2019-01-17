@@ -1,3 +1,10 @@
+$(window).on('load', function () {
+    setTimeout(function () {
+        $('body').fadeTo(300, 1);
+    }, 500);
+});
+
+
 new Foundation.DropdownMenu($('.nav-main.dropdown.menu'), {});
 
 new Foundation.Reveal($('.modal.reveal'), {});
