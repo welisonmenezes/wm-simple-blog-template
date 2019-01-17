@@ -1,3 +1,31 @@
+$(window).on('load', function () {
+
+	// init carousel
+	$('.carousel').carousel({
+		dist: 0,
+		numVisible: 1,
+		fullWidth: true,
+		indicators: false,
+		noWrap: true
+	});
+	$('.carousel-wrap .btn-next-prev.prev').on('click', function(){
+		var car = $(this).parent().find('.carousel');
+		if(car){
+			car.carousel('prev');
+		}
+	});
+	$('.carousel-wrap .btn-next-prev.next').on('click', function(){
+		var car = $(this).parent().find('.carousel');
+		if(car){
+			car.carousel('next');
+		}
+	});
+
+    setTimeout(function () {
+        $('body').fadeTo(300, 1);
+    }, 500);
+});
+
 // init dropdown
 $('.dropdown-trigger').dropdown();
 
@@ -19,25 +47,4 @@ $('.navbar-toggler').on('click', function(){
 $('.modal').modal({
 	startingTop: '5%',
 	endingTop: '5%'
-});
-
-// init carousel
-$('.carousel').carousel({
-	dist: 0,
-	numVisible: 1,
-	fullWidth: true,
-	indicators: false,
-	noWrap: true
-});
-$('.carousel-wrap .btn-next-prev.prev').on('click', function(){
-	var car = $(this).parent().find('.carousel');
-	if(car){
-		car.carousel('prev');
-	}
-});
-$('.carousel-wrap .btn-next-prev.next').on('click', function(){
-	var car = $(this).parent().find('.carousel');
-	if(car){
-		car.carousel('next');
-	}
 });
