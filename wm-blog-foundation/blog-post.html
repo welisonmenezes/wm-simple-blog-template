@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" href="node_modules/foundation-sites/dist/css/foundation.min.css">
 	<link rel="stylesheet" href="node_modules/foundation-sites/dist/css/foundation-float.min.css">
+	<link rel="stylesheet" href="node_modules/motion-ui/dist/motion-ui.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -185,7 +186,31 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper <a href="#">consequat id at felis</a>. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
 							</p>
 							<figure class="figure-img left-img" style="max-width: 300px;">
-								<img src="assets/images/post-9.jpg" alt="">
+								<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+									<div class="orbit-wrapper">
+										<div class="orbit-controls">
+											<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+											<button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+										</div>
+										<ul class="orbit-container">
+											<li class="is-active orbit-slide">
+												<figure class="orbit-figure">
+													<img class="orbit-image" src="assets/images/post-9.jpg" alt="">
+												</figure>
+											</li>
+											<li class="orbit-slide">
+												<figure class="orbit-figure">
+													<img class="orbit-image" src="assets/images/post-11.jpg" alt="">
+												</figure>
+											</li>
+											<li class="orbit-slide">
+												<figure class="orbit-figure">
+													<img class="orbit-image" src="assets/images/post-4.jpg" alt="">
+												</figure>
+											</li>
+										</ul>
+									</div>
+								</div>
 								<figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption>
 							</figure>
 							<p>
