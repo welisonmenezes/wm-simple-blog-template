@@ -6,18 +6,15 @@ body, html{
 	color: #fff;
 	font-size: 1rem;
 }
-
 a{
 	color: #77c4d3;
 }
 a:hover, a:focus, a:active{
 	color: #77c4d3;
 }
-
 textarea{
 	min-height: 150px;
 }
-
 ul, ol{
 	padding: 0;
 	margin: 0;
@@ -25,23 +22,18 @@ ul, ol{
 ul, ol, li{
 	list-style: none;
 }
-
 .mark, mark{
 	background: #f6f792;
 }
-
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
 	font-weight: 300;
 }
-
-
 
 .container{
 	width: 100%;
 	max-width: 1140px;
 	margin: 0 auto;
 }
-
 @media (max-width: 1200px){
 	.container{
 		max-width: 90%;
@@ -50,9 +42,10 @@ ul, ol, li{
 @media (max-width: 600px){
 	.container{
 		max-width: 510px;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }
-
 
 .ui.grid>.stackable.stackable.row>.column,
 .ui.stackable.grid>.column.grid>.column,
@@ -64,7 +57,6 @@ ul, ol, li{
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
-
 
 .form-control{
 	background: #404556;
@@ -88,8 +80,6 @@ ul, ol, li{
 .form-control::-moz-placeholder { color: #c8d8cf; }  /* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder { color: #c8d8cf; }  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder { color: #c8d8cf; }  /* Microsoft Edge */
-
-
 
 .nav-main{
 	margin-left: 1rem;
@@ -197,7 +187,6 @@ ul, ol, li{
 .header-brand img{
 	width: 100%;
 }
-
 
 .menu-dropdown{
 	position: relative;
@@ -310,15 +299,101 @@ ul, ol, li{
 	.menu-dropdown.opened .menu{
 		display: block;
 	}
-	/*.nav-main .menu{
-		position: static;
-		display: none !important;
-	}
-	.nav-main li.opened .menu{
-		display: block !important;
-	}*/
 
 	.navbar-toggler{
 		display: block;
 	}
+}
+
+
+.list-group{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
+    color: #daede2;
+    padding: 0;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #333745;
+    background: transparent;
+    padding-left: 0;
+}
+.list-group-flush:last-child .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.nav-footer li {
+    display: inline-block;
+    margin-right: 15px;
+    list-style: none;
+    font-size: 0.8em;
+}
+
+.footer-main{
+	background: #272a36;
+	color: #daede2;
+    padding-top: 2rem;
+}
+.footer-main > .container{
+	padding-bottom: 2rem;
+}
+.footer-main a:hover{
+	text-decoration: underline;
+}
+.footer-main .collection-item > small {
+    display: block;
+    color: #73767f;
+}
+.footer-main .collection-item h4{
+	font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-main .dark-bar {
+    background: #1e202a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+.footer-main .list-group-item h4 {
+    font-size: 1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-main .list-group-item > small {
+    display: block;
+    color: #73767f;
+}
+
+@media (max-width: 810px){
+	.footer-main .ui.grid > .column{
+		width: 100% !important;
+	}
+	.footer-main .nav-footer{
+		text-align: left !important;
+	}
+}
+
+.footer-brand{
+}
+.footer-brand img{
+	width: 60px;
+}
+
+
+
+
+
+
+.modal{
+	display: none;
 }
