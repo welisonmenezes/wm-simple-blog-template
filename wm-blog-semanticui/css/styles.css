@@ -85,6 +85,10 @@ img{
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
+.ui.grid{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
 
 .form-control{
 	background: #404556;
@@ -427,10 +431,12 @@ main.main{
 	padding-top: 2em;
 	padding-bottom: 3em;
 }
-.hot-post .ui.grid > .column.eleven{
+.hot-post > .ui.grid > .column.eleven,
+.content-body.ui.grid > .column.eleven{
 	width: 66.66667% !important;
 }
-.hot-post .ui.grid > .column.five{
+.hot-post > .ui.grid > .column.five,
+.content-body.ui.grid > .column.five{
 	width: 33.33333% !important;
 }
 .hot-post .post-body{
@@ -462,11 +468,13 @@ main.main{
 }
 
 @media (max-width: 900px) {
-	.hot-post .ui.grid > .column.eleven{
+	.hot-post > .ui.grid > .column.eleven,
+	.content-body.ui.grid > .column.eleven{
 		width: 100% !important;
 		padding: 0 1rem !important;
 	}
-	.hot-post .ui.grid > .column.five{
+	.hot-post .ui.grid > .column.five,
+	.content-body.ui.grid > .column.five{
 		width: 100% !important;
 		padding: 0 1rem !important;
 	}
@@ -558,6 +566,103 @@ main.main{
 }
 .section-title h4.title{
 	font-size: 1em;
+}
+
+
+.recent-post{
+	margin-bottom: 4em;
+}
+.recent-post .ads-box{
+	padding: 1em;
+}
+.recent-post .card{
+	background: #414656;
+	color: #daede2;
+	margin: 0;
+	border: none;
+}
+.recent-post .card a{
+	color: #daede2;	
+}
+.recent-post .card a:hover,
+.recent-post .card a:focus{
+	text-decoration: none;
+	color: #ea2e49;
+}
+.recent-post .card .post-meta li{
+	color: #8188a0;
+}
+.recent-post .mb-15{
+	margin-bottom: 15px;
+}
+.recent-post .card-title{
+	margin-bottom: .3em;
+}
+.recent-post .card-title{
+	font-size: 1.2rem !important;
+}
+.recent-post .row{
+	margin-bottom: .75rem !important;
+}
+.recent-post .row > .column{
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+.recent-post .row .col-left{
+	padding-right: 5px !important;
+}
+.recent-post .row .col-right{
+	padding-left: 5px !important; 
+}
+
+@media (max-width: 900px) {
+	.col-content,
+	.col-sidebar{
+		width: 100%;
+	}
+}
+@media (max-width: 640px) {
+	.recent-post .ads-box{
+		padding: .5em;
+	}
+	.recent-post .row{
+		margin-bottom: 0;
+	}
+	.recent-post .row > div{
+		margin-bottom: 15px;
+	}
+	.recent-post .ui.grid > .column{
+		width: 100% !important;
+	}
+	.recent-post .row .col-left{
+		padding-right: 1rem !important;
+	}
+	.recent-post .row .col-right{
+		padding-left: 1rem !important; 
+	}
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.ads-box{
+	padding: 2em;
+	background: #272a36;
+}
+.ads-box img{
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	max-width: 100%;
+}
+@media (max-width: 640px) {
+	.ads-box{
+		padding: .5em;
+	}
 }
 
 
