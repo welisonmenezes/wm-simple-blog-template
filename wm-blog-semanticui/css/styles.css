@@ -54,6 +54,17 @@ ul, ol, li{
 }
 
 
+.ui.grid>.stackable.stackable.row>.column,
+.ui.stackable.grid>.column.grid>.column,
+.ui.stackable.grid>.column.row>.column,
+.ui.stackable.grid>.column:not(.row),
+.ui.stackable.grid>.row>.column,
+.ui.stackable.grid>.row>.wide.column,
+.ui.stackable.grid>.wide.column{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
 
 .form-control{
 	background: #404556;
@@ -80,7 +91,9 @@ ul, ol, li{
 
 
 
-
+.nav-main{
+	margin-left: 1rem;
+}
 .nav-main li{
 	display: inline-block;
 }
@@ -102,9 +115,10 @@ ul, ol, li{
     color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,.1);
     position: absolute;
-    right: .9375rem;
-    top: 12px;
+    right: 1rem;
+    top: 2px;
     cursor: pointer;
+    z-index: 9;
 }
 .navbar-toggler:focus{
 	background: transparent;
@@ -174,62 +188,8 @@ ul, ol, li{
 	padding: 0 .4rem;
 }
 
-@media (min-width: 810px){
-	#navbarMain{
-		display: block !important;
-	}
-}
-@media (max-width: 810px){
-	#navbarMain{
-		padding-top: 30px;
-		display: none;
-	}
-
-	.header-main .columns{
-		width: 100%;
-	}
-	.header-main .form-inline{
-		display: block;
-		margin-bottom: 1rem;
-	}
-	.header-main .form-inline .form-control{
-		position: static;
-		display: block;
-		max-width: none;
-		width: 100% !important;
-	}
-	.header-main .navbar-social{
-		display: block;
-		text-align: left;
-		margin-left: 0;
-		padding-top: 0;
-		padding-bottom: 1rem;
-	}
-	
-	.nav-main{
-		display: block;
-		margin-bottom: 1rem;
-	}
-	.nav-main li{
-		display: block;
-	}
-	.nav-main .menu{
-		position: static;
-		display: none !important;
-	}
-	.nav-main li.opened .menu{
-		display: block !important;
-	}
-
-	.navbar-toggler{
-		display: block;
-	}
-}
-
-
-
 .header-brand{
-	max-width: 50px;
+	width: 50px;
 	margin-right: 0;
 	padding-top: 4px;
 	display: block;
@@ -291,4 +251,74 @@ ul, ol, li{
 .menu-dropdown:hover .menu{
 	opacity: 1;
 	height: auto;
+}
+
+@media (min-width: 900px){
+	#navbarMain{
+		display: block !important;
+	}
+}
+@media (max-width: 900px){
+	#navbarMain{
+		padding-top: 30px;
+		display: none;
+	}
+
+	.header-main .ui.grid > .column{
+		width: 100% !important;
+	}
+
+	.header-main .columns{
+		width: 100%;
+	}
+	.header-main .form-inline{
+		display: block;
+		margin-bottom: 1rem;
+	}
+	.header-main .form-inline .form-control{
+		position: static;
+		display: block;
+		max-width: none;
+		width: 100% !important;
+	}
+	.header-main .navbar-social{
+		display: block;
+		text-align: left;
+		margin-left: 0;
+		padding-top: 0;
+		padding-bottom: 1rem;
+	}
+	
+	.nav-main{
+		display: block;
+		margin-bottom: 1rem;
+		margin-left: 0;
+	}
+	.nav-main li{
+		display: block;
+	}
+
+	.menu-dropdown .menu{
+		opacity: 1;
+		height: auto;
+		width: 100%;
+		max-width: none;
+		display: block;
+		position: static;
+		display: none;
+	}
+	.menu-dropdown.opened .menu{
+		display: block;
+	}
+	/*.nav-main .menu{
+		position: static;
+		display: none !important;
+	}
+	.nav-main li.opened .menu{
+		display: block !important;
+	}*/
+
+	.navbar-toggler{
+		display: block;
+	}
 }
