@@ -5,6 +5,7 @@ body, html{
 	background: #333745;
 	color: #fff;
 	font-size: 1rem;
+	min-width: auto;
 }
 a{
 	color: #77c4d3;
@@ -995,6 +996,40 @@ main.main{
 	vertical-align: middle;
 	margin-bottom: .3em;
 }
+
+.featured-posts .section-title{
+	margin-bottom: 1rem;
+}
+.featured-posts .post-img{
+	margin-bottom: .5em;
+}
+.featured-posts .post-title{
+	font-size: 1.2em;
+}
+.featured-posts.small{
+	font-size: .9em;
+}
+.featured-posts.small .row{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.featured-posts.small .row > div{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media (max-width: 900px) {
+	.featured-posts .ui.grid > .column.four{
+		margin-bottom: 1rem !important;
+		width: 50% !important;
+	}
+}
+@media (max-width: 400px) {
+	.featured-posts .ui.grid > .column.four{
+		width: 100% !important;
+	}
+}
+
 
 
 
