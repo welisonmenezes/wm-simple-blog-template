@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<style type="text/css">
@@ -22,52 +22,72 @@
 	<!-- header-main -->
 	<header class="header-main">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<nav class="navbar navbar-dark navbar-expand-md">
-						<a href="index.html" class="navbar-brand">
-							<img src="assets/images/mylogo.svg" alt="Logo">
-						</a>
-						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-				          <span class="navbar-toggler-icon"></span>
-				        </button>
-				        <div id="navbarMain" class="collapse navbar-collapse">
-				        	<ul class="navbar-nav mr-auto">
-				        		<li class="nav-item">
-				        			<a href="index.html" class="nav-link">Home</a>
-				        		</li>
-				        		<li class="nav-item dropdown">
-				        			<a class="dropdown-toggle nav-link active" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Pages</a>
-				        			<div class="dropdown-menu rounded-0 border-0" aria-labelledby="dropdown01">
-				        				<a class="dropdown-item active" href="blog-post.html">Blog Post</a>
-				        				<a class="dropdown-item" href="blog-list.html">Blog List</a>
-									    <a class="dropdown-item" href="page-404.html">404 Page</a>
-									    <a class="dropdown-item" href="elements.html">Elements</a>
-									</div>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="about.html" class="nav-link">About</a>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="contact.html" class="nav-link">Contact</a>
-				        		</li>
-				        	</ul>
-				        	<form class="form-inline" role="search">
-				            	<input class="search form-control rounded-0" type="text" title="Enter search query here.." placeholder="Search.." aria-label="Search">
-				            </form>
-				            <ul class="navbar-nav navbar-social">
-				        		<li class="nav-item">
-				        			<a href="#" class="nav-link">
-				        				<i class="fab fa-github"></i>
-				        			</a>
-				        		</li>
-				        		<li class="nav-item">
-				        			<a href="#" class="nav-link">
-				        				<i class="fab fa-linkedin"></i>
-				        			</a>
-				        		</li>
-				        	</ul>
-				        </div>
+			<div class="row ui grid">
+				<div class="column wide">
+					<button class="navbar-toggler" type="button">
+			        	<i class="fa fa-bars"></i>
+			        </button>
+					<nav class="navbar">
+						<div class="row ui grid stackable">
+							<div class="column one wide">
+								<a href="index.html" class="waves-effect waves-light header-brand">
+									<img src="assets/images/mylogo.svg" alt="Logo">
+								</a>
+							</div>
+							<div class="column fifteen wide">
+								<div id="navbarMain">
+						        	<div class="row ui grid">
+						        		<div class="column ten wide">
+						        			<ul class="nav-main">
+								        		<li>
+								        			<a href="index.html">Home</a>
+								        		</li>
+								        		<li class="menu-dropdown">
+								        			<a href="#" class="active">Other Pages</a>
+								        			<ul class="menu">
+								        				<li>
+								        					<a href="blog-post.html" class="active">Blog Post</a>
+								        				</li>
+								        				<li>
+								        					<a href="blog-list.html">Blog List</a>
+								        				</li>
+								        				<li>
+								        					<a href="page-404.html">404 Page</a>
+								        				</li>
+								        				<li>
+								        					<a href="elements.html">Elements</a>
+								        				</li>
+								        			</ul>
+								        		</li>
+								        		<li>
+								        			<a href="about.html">About</a>
+								        		</li>
+								        		<li>
+								        			<a href="contact.html">Contact</a>
+								        		</li>
+								        	</ul>
+						        		</div>
+						        		<div class="column six wide right aligned">
+							        		<form class="form-inline" role="search">
+								            	<input class="form-control" type="text" title="Enter search query here.." placeholder="Search..">
+								            </form>
+							            	<ul class="navbar-social">
+								        		<li>
+								        			<a href="#">
+								        				<i class="fab fa-github"></i>
+								        			</a>
+								        		</li>
+								        		<li>
+								        			<a href="#">
+								        				<i class="fab fa-linkedin"></i>
+								        			</a>
+								        		</li>
+								        	</ul>
+							            </div>
+						        	</div>
+						        </div>
+							</div>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -900,8 +920,7 @@
 	<!-- end modal -->
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/semantic-ui-css/semantic.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>
