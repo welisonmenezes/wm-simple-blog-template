@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.min.css">
+	<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+	<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<style type="text/css">
@@ -29,7 +31,7 @@
 		}
 	</style>
 </head>
-<body>
+<body class="page-elements">
 	
 	<!-- header-main -->
 	<header class="header-main">
@@ -355,13 +357,53 @@
 					<div class="section-title">
 						<h3 class="title">Slides only</h3>
 					</div>
-					carousel here
+
+					<div class="glide" id="glide2">
+						<div class="glide__track" data-glide-el="track">
+							<ul class="glide__slides">
+								<li class="glide__slide">
+									<img src="assets/images/post-9.jpg" alt="">
+								</li>
+								<li class="glide__slide">
+									<img src="assets/images/post-2.jpg" alt="">
+								</li>
+								<li class="glide__slide">
+									<img src="assets/images/post-11.jpg" alt="">
+								</li>
+							</ul>
+						</div>
+					</div>
+
 				</div>
 				<div class="column eight wide">
 					<div class="section-title">
 						<h3 class="title">With controls</h3>
 					</div>
-					carousel here
+					
+					<div class="glide" id="glide1">
+						<div class="glide__track" data-glide-el="track">
+							<ul class="glide__slides">
+								<li class="glide__slide">
+									<img src="assets/images/post-9.jpg" alt="">
+								</li>
+								<li class="glide__slide">
+									<img src="assets/images/post-2.jpg" alt="">
+								</li>
+								<li class="glide__slide">
+									<img src="assets/images/post-11.jpg" alt="">
+								</li>
+							</ul>
+						</div>
+						<div class="glide__arrows" data-glide-el="controls">
+							<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+								<i class="fa fa-angle-left"></i>
+							</button>
+							<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+								<i class="fa fa-angle-right"></i>
+							</button>
+						</div>
+					</div>
+
 				</div>
 			</div>
 			<div class="row ui grid">
@@ -704,6 +746,7 @@
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/semantic-ui-css/semantic.min.js"></script>
+	<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>

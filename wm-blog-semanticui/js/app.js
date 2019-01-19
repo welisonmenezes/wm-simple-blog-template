@@ -1,4 +1,17 @@
 $(window).on('load', function () {
+
+	$('.glide').each(function(index, el) {
+		if (el) {
+			var id = $(el).attr('id');
+			if (id) {
+				new Glide('#' + id, {
+					autoplay: 4000,
+					animationDuration: 1500
+				}).mount();
+			}
+		}
+	});
+
     setTimeout(function () {
         $('body').fadeTo(300, 1);
     }, 500);

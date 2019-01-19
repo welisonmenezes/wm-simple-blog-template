@@ -1313,6 +1313,17 @@ form .ui.grid > .column{
 }
 
 
+.glide__arrow--left{
+	left: 1em;
+}
+.glide__arrow--right{
+	right: 1em;
+}
+@media (max-width: 900px) {
+	.page-elements .ui.grid > .column{
+		width: 100% !important;
+	}
+}
 
 
 
