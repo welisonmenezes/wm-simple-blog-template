@@ -1332,6 +1332,9 @@ main.main{
 .contact-info p{
 	margin-bottom: .5em;
 }
+.contact-info a:hover{
+	text-decoration: underline;
+}
 
 @media (max-width: 992px) {
 	.contact-text,
