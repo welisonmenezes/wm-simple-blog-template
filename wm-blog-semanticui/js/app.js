@@ -5,6 +5,7 @@ $(window).on('load', function () {
 			var id = $(el).attr('id');
 			if (id) {
 				new Glide('#' + id, {
+					type: 'carousel',
 					autoplay: 4000,
 					animationDuration: 1500
 				}).mount();
