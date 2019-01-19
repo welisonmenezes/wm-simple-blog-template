@@ -353,6 +353,10 @@ ul li, ol li{
 	background: #fff;
 	text-align: left;
 }
+.table tbody tr:last-child td,
+.table tbody tr:last-child th{
+	border-bottom: none;
+}
 .table-dark{
 	border: none;
 	background: #272a36;
