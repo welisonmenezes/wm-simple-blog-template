@@ -85,6 +85,9 @@ img{
 	font-weight: 700;
 	display: inline-block;
 	margin: 0 !important;
+	min-width: 2.1em;
+    padding: .3em;
+    text-align: center;
 }
 .btn, .badge{
 	-webkit-border-radius: 0;
@@ -302,6 +305,53 @@ img{
     background-color: #17a2b8;
 }
 
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+	color: #fff;
+}
+.alert-primary{
+	background: #bbe1e9;
+	border-color: #77c4d3;
+	color: #272a36;
+}
+.alert-secondary{
+	background: #a5a6ab;
+	border-color: #4b4d57;
+}
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+.alert-success,
+.alert-info{
+	color: #272a36;
+}
+.alert-danger{
+	background: #f496a4;
+	border-color: #ea2e49;
+}
+.alert-warning{
+	background: #fafbc8;
+	border-color: #f6f792;
+	color: #272a36;
+}
+.alert-light{
+	background: #ecf6f0;
+	border-color: #daede2;
+	color: #272a36;
+}
+.alert-dark{
+	background: #8b8c8e;
+	border-color: #171a1d;
+}
+
 .ui.grid>.stackable.stackable.row>.column,
 .ui.stackable.grid>.column.grid>.column,
 .ui.stackable.grid>.column.row>.column,
@@ -466,6 +516,7 @@ img{
 	height: 0;
 	overflow: hidden;
 	position: absolute;
+	z-index: 99;
 	top: 35px;
 	left: 0;
 	white-space: nowrap;
