@@ -1343,6 +1343,10 @@ main.main{
 	}
 }
 
+.breadcrumbs a:hover{
+	text-decoration: underline;
+}
+
 .single-header{
 	padding-top: 1em;
 	padding-bottom: 1em;
