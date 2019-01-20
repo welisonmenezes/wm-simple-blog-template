@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.min.css">
+	<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+	<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<style type="text/css">
@@ -191,7 +193,29 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper <a href="#">consequat id at felis</a>. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
 							</p>
 							<figure class="figure-img left-img" style="max-width: 300px;">
-								<img src="assets/images/post-9.jpg" alt="">
+								<div class="glide" id="glide1">
+									<div class="glide__track" data-glide-el="track">
+										<ul class="glide__slides">
+											<li class="glide__slide">
+												<img src="assets/images/post-9.jpg" alt="">
+											</li>
+											<li class="glide__slide">
+												<img src="assets/images/post-2.jpg" alt="">
+											</li>
+											<li class="glide__slide">
+												<img src="assets/images/post-11.jpg" alt="">
+											</li>
+										</ul>
+									</div>
+									<div class="glide__arrows" data-glide-el="controls">
+										<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+											<i class="fa fa-angle-left"></i>
+										</button>
+										<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+											<i class="fa fa-angle-right"></i>
+										</button>
+									</div>
+								</div>
 								<figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption>
 							</figure>
 							<p>
@@ -893,6 +917,7 @@
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/semantic-ui-css/semantic.min.js"></script>
+	<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>

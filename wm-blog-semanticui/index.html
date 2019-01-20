@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" href="node_modules/semantic-ui-css/semantic.min.css">
+	<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+	<link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<style type="text/css">
@@ -129,9 +131,37 @@
 					</div>
 					<div class="column five wide hot-post-right">
 						<div class="post post-thumb">
-							<a href="blog-post.html" class="post-img">
-								<img src="assets/images/post-2.jpg" alt="">
-							</a>
+							<div class="post-img">
+								<div class="glide" id="glide1">
+									<div class="glide__track" data-glide-el="track">
+										<ul class="glide__slides">
+											<li class="glide__slide">
+												<a href="blog-post.html">
+													<img src="assets/images/post-9.jpg" alt="">
+												</a>
+											</li>
+											<li class="glide__slide">
+												<a href="blog-post.html">
+													<img src="assets/images/post-6.jpg" alt="">
+												</a>
+											</li>
+											<li class="glide__slide">
+												<a href="blog-post.html">
+													<img src="assets/images/post-8.jpg" alt="">
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="glide__arrows" data-glide-el="controls">
+										<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+											<i class="fa fa-angle-left"></i>
+										</button>
+										<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+											<i class="fa fa-angle-right"></i>
+										</button>
+									</div>
+								</div>
+							</div>
 							<div class="post-body">
 								<div class="post-category">
 									<a href="blog-list.html">Technology</a>
@@ -217,9 +247,37 @@
 							</div>
 							<div class="column eight wide col-right">
 								<div class="card">
-									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-5.jpg" class="card-img-top rounded-0" alt="">
-									</a>
+									<div class="post-img">
+										<div class="glide" id="glide2">
+											<div class="glide__track" data-glide-el="track">
+												<ul class="glide__slides">
+													<li class="glide__slide">
+														<a href="blog-post.html">
+															<img src="assets/images/post-5.jpg" alt="">
+														</a>
+													</li>
+													<li class="glide__slide">
+														<a href="blog-post.html">
+															<img src="assets/images/post-1.jpg" alt="">
+														</a>
+													</li>
+													<li class="glide__slide">
+														<a href="blog-post.html">
+															<img src="assets/images/post-11.jpg" alt="">
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="glide__arrows" data-glide-el="controls">
+												<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+													<i class="fa fa-angle-left"></i>
+												</button>
+												<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+													<i class="fa fa-angle-right"></i>
+												</button>
+											</div>
+										</div>
+									</div>
 									<div class="card-body">
 										<div class="post-category">
 											<a href="blog-list.html">Technology</a>
@@ -934,6 +992,7 @@
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/semantic-ui-css/semantic.min.js"></script>
+	<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>
