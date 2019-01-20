@@ -1552,6 +1552,14 @@ form .ui.grid > .column{
 	}
 }
 
+.page-blog-list .hot-post {
+    padding-bottom: 0;
+}
+.no-top-padding {
+    padding-top: 0 !important;
+}
+
+
 
 
 
