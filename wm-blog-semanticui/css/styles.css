@@ -1758,12 +1758,47 @@ form .ui.grid > .column{
 	margin-bottom: 10px !important;
 }
 
-
-
-
-
-
-
 .modal{
+	width: 80% !important;
+	padding: 1rem;
+	background: #272a36;
+	outline: none;
+	border: none;
 	display: none;
+	position: relative;
+}
+.modal-content{
+	background: #272a36;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: left;
+}
+.modal-header{
+	border-bottom: solid 1px #333745;
+}
+.modal-footer{
+	border-top: solid 1px #333745;
+	text-align: right;
+	padding-top: 1rem;
+}
+.modal-header,
+.modal-footer{
+	background-color: #272a36 !important;
+}
+.modal-content .close{
+	color: #fff !important;
+	position: absolute;
+	background: transparent;
+	border: none;
+	right: 20px;
+	top: 20px;
+}
+
+@media (max-width: 600px) {
+	.modal{
+		
+		width: 96% !important;
+		margin: 0 auto;
+	}
 }

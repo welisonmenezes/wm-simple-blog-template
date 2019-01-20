@@ -46,3 +46,21 @@ $('.menu-dropdown > a').on('click', function() {
 	}
 	return false;
 });
+
+
+$('.open-modal').on('click', function(){
+	var t  = $(this);
+	var idModal = t.attr('data-target');
+	if (idModal) {
+		$('#' + idModal).modal('show');
+		$('#' + idModal).modal({
+			closable: true
+		});
+	}
+	return false;
+});
+$('.close-modal').on('click', function(){
+	var t = $(this);
+	$('.modal').modal('hide');
+	return false;
+});
