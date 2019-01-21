@@ -1,0 +1,23 @@
+body, html{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	background: #333745;
+	color: #fff;
+}
+a{
+	color: #77c4d3;
+}
+a:hover, a:focus, a:active{
+	color: #77c4d3;
+}
+textarea{
+	min-height: 150px;
+}
+.mark, mark{
+	background: #f6f792;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6{
+	font-weight: 300;
+}

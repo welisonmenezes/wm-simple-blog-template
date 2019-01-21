@@ -1,0 +1,16 @@
+{
+  "name": "wm-blog-bootstrap",
+  "version": "1.0.0",
+  "description": "A simple blog template based on Bootstrap ",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Welison Menezes",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "bulma": "^0.7.2",
+    "jquery": "^3.3.1"
+  }
+}
