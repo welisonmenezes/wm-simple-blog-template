@@ -18,9 +18,36 @@ textarea{
 .mark, mark{
 	background: #f6f792;
 }
-.h1, .h2, .h3, .h4, .h5, .h6,
-h1, h2, h3, h4, h5, h6{
-	font-weight: 300;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.2;
+  color: inherit;
+}
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
 }
 
 .container{
@@ -394,4 +421,109 @@ h1, h2, h3, h4, h5, h6{
 main.main{
 	min-height: 300px;
 	padding-bottom: 4em;
+}
+
+.hot-post{
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+.hot-post .post-body{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 1.5em;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.75+80 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 80%, rgba(0,0,0,0.75) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 80%,rgba(0,0,0,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 80%,rgba(0,0,0,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
+}
+.page-home .hot-post-left{
+	padding-right: 0px !important;
+}
+.page-home .hot-post-right{
+	padding-left: 6px !important;
+}
+
+.hot-post-right h3{
+	font-size: 1.3em;
+	margin-bottom: .15em;
+}
+.hot-post-right .post-body{
+	padding: 1em;
+}
+
+@media (max-width: 992px) {
+	.hot-post .columns{
+		display: block;
+	}
+	.hot-post .column{
+		width: 100%;
+	}
+	.page-home .hot-post-left{
+		padding: 0 !important;
+	}
+	.hot-post-left h3{
+		font-size: 1.3em;
+		margin-bottom: .15em;
+	}
+	.hot-post-left .post-body{
+		padding: 1em;
+	}
+	.page-home .hot-post-right{
+		padding: 0 !important;
+	}
+}
+
+.post-thumb {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.post-img{
+	width: 100%;
+	overflow: hidden;
+	display: block;
+}
+.post-img > img{
+	display: block;
+	width: 100%;
+	-webkit-transition: 1.6s -webkit-transform;
+    transition: 1.6s -webkit-transform;
+    transition: 1.6s transform;
+    transition: 1.6s transform, 1.6s -webkit-transform;
+}
+.post-img:hover > img{
+	-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.post-body a{
+	color: #fff;
+}
+.post-body a:hover,
+.post-body a:focus{
+	color: #ea2e49 !important;
+	text-decoration: none;
+}
+
+.post-category a{
+	color: #ea2e49 !important;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+.post-meta{
+	padding: 0;
+	margin: 0;
+}
+.post-meta li{
+	color: #fff;
+	font-size: 0.8em;
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
 }
