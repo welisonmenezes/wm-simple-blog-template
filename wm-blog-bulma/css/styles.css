@@ -171,6 +171,10 @@ h1, h2, h3, h4, h5, h6{
 	opacity: 1;
 	height: auto;
 }
+.dropdown .dropdown-menu li a.active{
+	background: #77c4d3 !important;
+    color: #fff !important;
+}
 
 .menu {
     font-size: 0.95rem;
@@ -385,4 +389,9 @@ h1, h2, h3, h4, h5, h6{
     margin-right: 15px;
     list-style: none;
     font-size: 0.8em;
+}
+
+main.main{
+	min-height: 300px;
+	padding-bottom: 4em;
 }
