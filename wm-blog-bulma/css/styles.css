@@ -37,6 +37,8 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 600px){
 	.container{
 		max-width: 510px;
+		padding-right: 15px;
+		padding-left: 15px;
 	}
 }
 
@@ -90,8 +92,8 @@ h1, h2, h3, h4, h5, h6{
     color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,.1);
     position: absolute;
-    right: .9375rem;
-    top: 12px;
+    right: 0;
+    top: 2px;
     cursor: pointer;
 }
 .navbar-toggler:focus{
@@ -104,6 +106,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar{
 	background: transparent;
+	min-height: auto;
 }
 
 .nav-main > li{
@@ -121,6 +124,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .dropdown > a{
 	padding-right: 1.2rem !important;
+	position: relative;
 }
 .dropdown > a::after {
     display: block;
@@ -143,7 +147,7 @@ h1, h2, h3, h4, h5, h6{
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    
+
 	opacity: 0;
 	height: 0;
 	overflow: hidden;
@@ -223,18 +227,18 @@ h1, h2, h3, h4, h5, h6{
 	padding: 0 .4rem;
 }
 
-@media (min-width: 810px){
+@media (min-width: 768px){
 	#navbarMain{
 		display: block !important;
 	}
 }
-@media (max-width: 810px){
+@media (max-width: 768px){
 	#navbarMain{
 		padding-top: 30px;
 		display: none;
 	}
 
-	.header-main .columns{
+	.header-main .column{
 		width: 100%;
 	}
 	.header-main .form-inline{
@@ -262,12 +266,14 @@ h1, h2, h3, h4, h5, h6{
 	.nav-main li{
 		display: block;
 	}
-	.nav-main .menu{
+	.nav-main .dropdown-menu{
 		position: static;
 		display: none !important;
 	}
-	.nav-main li.opened .menu{
+	.nav-main li.dropdown.opened .dropdown-menu{
 		display: block !important;
+		height: auto;
+		opacity: 1;
 	}
 
 	.navbar-toggler{
