@@ -1145,3 +1145,204 @@ main.main{
 .page-elements .main .columns > .column:last-child{
 	padding-right: 0;
 }
+@media (max-width: 768px) {
+	.page-elements .main .columns > .column{
+		padding: 0;
+	}
+}
+
+
+.pagination{
+	display: inline-block;
+	background: transparent;
+	box-shadow: none;
+	-webkit-box-shadow:none;
+	width: auto;
+}
+.pagination li{
+	min-height: 41px;
+	padding: 0 !important;
+	background: transparent !important;
+	white-space: nowrap;
+}
+
+.pagination-previous,
+.pagination-next,
+.pagination-list{
+	display: inline-block !important;
+}
+.pagination-list li{
+	display: inline-block;
+}
+.pagination li span,
+.pagination li a,
+.pagination-previous,
+.pagination-next{
+	color: #77c4d3;
+	position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+.page-link:hover,
+.pagination li a:hover,
+.pagination-previous:hover,
+.pagination-next:hover{
+	z-index: 2;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    color: #77c4d3;
+}
+.pagination li .is-current{
+	background: #77c4d3;
+	color: #daede2;
+	border-color: #77c4d3;
+}
+.pagination li .is-current:hover{
+	background: #77c4d3;
+	color: #daede2;
+	border-color: #77c4d3;
+}
+.pagination li.disabled span{
+	color: #404556;
+}
+
+.pagination-previous a::before, .pagination-previous.disabled::before{
+	display: none;
+}
+.pagination-next a::after, .pagination-next.disabled::after{
+	display: none;
+}
+.pagination .pagination-ellipsis{
+	color: #fff;
+	background: transparent;
+	border: none;
+}
+
+
+.text-primary{
+	color: #77c4d3 !important;
+}
+.text-secondary{
+	color: #4b4d57 !important;
+}
+.text-danger{
+	color: #ea2e49 !important;
+}
+.text-warning{
+	color: #f6f792 !important;
+}
+.text-light{
+	color: #daede2 !important;
+}
+.text-dark{
+	color: #1e202a !important;
+}
+.text-success{
+	color: #28a745!important;
+}
+.text-info{
+	color: #17a2b8!important;
+}
+.text-muted{
+	color: #6c757d!important;
+}
+
+
+@-webkit-keyframes spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.spinner-border {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner-border .75s linear infinite;
+  animation: spinner-border .75s linear infinite;
+}
+
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+  border-width: 0.2em;
+}
+
+.valid-feedback {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #28a745;
+}
+
+.invalid-feedback {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.form-text {
+    display: block;
+    margin-top: .25rem;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+    border-color: #28a745 !important;
+    background-repeat: no-repeat !important;
+    background-position: center right calc(2.25rem / 4) !important;
+    background-size: calc(2.25rem / 2) calc(2.25rem / 2) !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+}
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus{
+	background-image: none !important;
+}
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    border-color: #dc3545 !important;
+    background-repeat: no-repeat !important;
+    background-position: center right calc(2.25rem / 4) !important;
+    background-size: calc(2.25rem / 2) calc(2.25rem / 2) !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+}
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus{
+	background-image: none !important;
+}
+
+[type="checkbox"].is-invalid~ label,
+[type="checkbox"].is-invalid~ label{
+    color: #dc3545;
+}
+
+form .columns {
+    margin-bottom: 0 !important;
+}
+form .columns > .column{
+	margin-bottom: 1rem !important;
+}
