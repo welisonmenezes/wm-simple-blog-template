@@ -64,3 +64,10 @@ $('.close-modal').on('click', function(){
 	$('.modal').modal('hide');
 	return false;
 });
+$('body').on('click','.dimmer.modals', function(){
+	var t = $(this);
+	t.find('.close-modal').trigger('click');
+});
+$('.modal').on('click', function(event){
+	event.stopPropagation();
+});

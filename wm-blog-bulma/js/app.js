@@ -57,3 +57,11 @@ $('.close-modal').on('click', function(){
 	}
 	return false;
 });
+
+$('.modal').on('click', function(){
+	var t = $(this);
+	t.find('.close-modal').trigger('click');
+});
+$('.modal-content').on('click', function(event){
+	event.stopPropagation();
+});

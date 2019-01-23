@@ -115,6 +115,7 @@ label {
     font-size: 1rem;
     text-transform: none;
     font-weight: normal;
+    cursor: pointer;
 
 	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
@@ -994,6 +995,12 @@ main.main{
 }
 
 
+.card{
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+
 .recent-post{
 	margin-bottom: 4em;
 }
@@ -1796,6 +1803,7 @@ form .ui.grid > .column{
 	border: none;
 	right: 20px;
 	top: 20px;
+	cursor: pointer;
 }
 
 @media (max-width: 600px) {
