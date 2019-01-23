@@ -86,6 +86,10 @@ strong, b{
 	}
 }
 
+.no-top-padding {
+    padding-top: 0 !important;
+}
+
 .mark, mark {
     background: #f6f792;
 }
@@ -862,10 +866,10 @@ main.main{
 
 
 .content-body > .is-8{
-	padding-right: 9px;
+	padding-right: 15px !important;
 }
 .content-body > .is-4{
-	padding-left: 6px;
+	padding-left: 15px !important;
 }
 @media (max-width: 992px) {
 	.content-body{
@@ -873,6 +877,8 @@ main.main{
 	}
 	.content-body > .column{
 		width: 100%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 }
 
@@ -1457,7 +1463,6 @@ form .columns > .column{
 
 .main-post{
 	padding-bottom: 2rem;
-	padding-right: 2rem;
 }
 .main-post strong,
 .main-post b{
@@ -1500,11 +1505,6 @@ form .columns > .column{
 }
 .main-post a:hover{
 	text-decoration: underline;
-}
-@media (max-width: 992px) {
-	.main-post{
-		padding-right: 0;
-	}
 }
 
 
