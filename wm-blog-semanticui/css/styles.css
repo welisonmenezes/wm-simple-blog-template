@@ -865,7 +865,7 @@ main.main{
 }
 .hot-post .post-body{
 	position: absolute;
-	width: 100%;
+	width: 101%;
 	bottom: 0;
 	left: 0;
 	padding: 1.5em;
@@ -914,6 +914,7 @@ main.main{
 .post-thumb {
     position: relative;
     margin-bottom: 9px;
+    overflow: hidden;
 }
 
 .post-img{
@@ -1318,7 +1319,9 @@ form .ui.grid > .column{
 	margin-bottom: 1rem !important;
 }
 
-
+.glide img{
+	display: block;
+}
 .glide__arrow--left{
 	left: 1em;
 }

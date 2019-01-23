@@ -765,7 +765,7 @@ main.main{
 }
 .hot-post .post-body{
 	position: absolute;
-	width: 100%;
+	width: 101%;
 	bottom: 0;
 	left: 0;
 	padding: 1.5em;
@@ -817,6 +817,7 @@ main.main{
 .post-thumb {
     position: relative;
     margin-bottom: 8px;
+    overflow: hidden;
 }
 
 .post-img{

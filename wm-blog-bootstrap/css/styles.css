@@ -349,7 +349,7 @@ main.main{
 
 @media (max-width: 992px) {
 	.hot-post-left{
-		padding-right: 15px;
+		padding-right: 15px !important;
 	}
 	.hot-post-left h3{
 		font-size: 1.3em;
@@ -359,7 +359,7 @@ main.main{
 		padding: 1em;
 	}
 	.hot-post-right{
-		padding-left: 15px;
+		padding-left: 15px !important;
 	}
 }
 
