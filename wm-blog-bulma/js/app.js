@@ -30,3 +30,25 @@ $('.nav-main li.dropdown').on('click', function(){
 			t.addClass('opened');
 	}
 });
+
+
+$('.open-modal').on('click', function(){
+	var t = $(this);
+	var s_target = t.attr('data-target');
+	if(s_target){
+		var target = $(s_target);
+		if(target){
+			target.addClass('is-active');
+		}
+	}
+	return false;
+});
+
+$('.close-modal').on('click', function(){
+	var t = $(this);
+	var target = $('.modal.is-active');
+	if(target){
+		target.removeClass('is-active');
+	}
+	return false;
+});

@@ -405,10 +405,10 @@
 					<div class="column is-8">
 						<ul class="nav-footer">
 							<li>
-								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Terms &amp; Conditions</a>
+								<a href="#" class="open-modal" data-target="#exampleModalLong">Terms &amp; Conditions</a>
 							</li>
 							<li>
-								<a href="#" data-toggle="modal" data-target="#exampleModalLong">Privacy policy</a>
+								<a href="#" class="open-modal" data-target="#exampleModalLong">Privacy policy</a>
 							</li>
 							<li>
 								<a href="contact.html">Contact us</a>
@@ -436,12 +436,12 @@
 	<!-- end footer-main -->
 
 	<!-- modal -->
-	<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
+	<div class="modal" id="exampleModalLong">
+		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<button type="button" class="close close-modal">
 						<i class="fa fa-times"></i>
 					</button>
 				</div>
@@ -537,19 +537,19 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th scope="columns">1</th>
+										<th scope="row">1</th>
 										<td>Mark</td>
 										<td>Otto</td>
 										<td>@mdo</td>
 									</tr>
 									<tr>
-										<th scope="columns">2</th>
+										<th scope="row">2</th>
 										<td>Jacob</td>
 										<td>Thornton</td>
 										<td>@fat</td>
 									</tr>
 									<tr>
-										<th scope="columns">3</th>
+										<th scope="row">3</th>
 										<td>Larry</td>
 										<td>the Bird</td>
 										<td>@twitter</td>
@@ -565,7 +565,7 @@
 					<!-- end main-post -->
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-secondary close-modal">Close</button>
 				</div>
 			</div>
 		</div>

@@ -1775,3 +1775,51 @@ form .columns > .column{
 	padding-right: 5px;
 	margin-bottom: 10px !important;
 }
+
+
+.modal{
+	background-color: rgba(10,10,10,.45);
+}
+.modal-content{
+	width: 80% !important;
+	background: #272a36;
+	outline: none;
+	border: none;
+	padding: 0 2rem;
+}
+.modal-header{
+	border-bottom: solid 1px #333745;
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.modal-footer{
+	border-top: solid 1px #333745;
+	text-align: right;
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.modal-header,
+.modal-footer{
+	background-color: #272a36 !important;
+}
+.modal-content .close{
+	color: #fff !important;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+@media (max-width: 600px) {
+	.modal-dialog{
+		width: 100%;
+	}
+	.modal-content{	
+		width: 96% !important;
+		margin: 0 auto;
+		overflow-x: hidden;
+		max-height: calc(100vh - 40px);
+	}
+}
