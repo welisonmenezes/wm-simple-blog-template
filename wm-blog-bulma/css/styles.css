@@ -789,6 +789,7 @@ main.main{
 }
 .hot-post-right .post-body{
 	padding: 1em;
+	z-index: 9;
 }
 
 @media (max-width: 992px) {
@@ -1822,4 +1823,8 @@ form .columns > .column{
 		overflow-x: hidden;
 		max-height: calc(100vh - 40px);
 	}
+}
+
+.carousel img{
+	display: block;
 }

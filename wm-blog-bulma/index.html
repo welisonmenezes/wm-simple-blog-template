@@ -8,6 +8,7 @@
 	<link rel="icon" href="assets/images/favicon.png">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+	<link rel="stylesheet" href="node_modules/bulma-carousel/dist/css/bulma-carousel.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<style type="text/css">
@@ -130,9 +131,35 @@
 					</div>
 					<div class="column is-4 hot-post-right">
 						<div class="post post-thumb">
-							<a href="blog-post.html" class="post-img">
-								<img src="assets/images/post-2.jpg" alt="">
-							</a>
+							<div class="post-img">
+								<div class='carousel carousel-animated carousel-animate-slide'>
+									<div class='carousel-container'>
+										<div class='carousel-item is-active'>
+											<a href="blog-post.html">
+												<img src="assets/images/post-2.jpg">
+											</a>
+										</div>
+										<div class='carousel-item has-background'>
+											<a href="blog-post.html">
+												<img src="assets/images/post-9.jpg">
+											</a>
+										</div>
+										<div class='carousel-item has-background'>
+											<a href="blog-post.html">
+												<img src="assets/images/post-7.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="carousel-navigation is-overlay">
+										<div class="carousel-nav-left">
+											<i class="fa fa-chevron-left" aria-hidden="true"></i>
+										</div>
+										<div class="carousel-nav-right">
+											<i class="fa fa-chevron-right" aria-hidden="true"></i>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="post-body">
 								<div class="post-category">
 									<a href="blog-list.html">Technology</a>
@@ -196,7 +223,81 @@
 							<div class="column is-6 col-left">
 								<div class="card">
 									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-4.jpg" class="card-img-top rounded-0" alt="">
+										<img src="assets/images/post-4.jpg" class="card-img-top" alt="">
+									</a>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="column is-6 col-right">
+								<div class="card">
+									<div class="post-img">
+										<div class='carousel carousel-animated carousel-animate-slide'>
+											<div class='carousel-container'>
+												<div class='carousel-item is-active'>
+													<a href="blog-post.html">
+														<img src="assets/images/post-5.jpg">
+													</a>
+												</div>
+												<div class='carousel-item'>
+													<a href="blog-post.html">
+														<img src="assets/images/post-11.jpg">
+													</a>
+												</div>
+												<div class='carousel-item'>
+													<a href="blog-post.html">
+														<img src="assets/images/post-8.jpg">
+													</a>
+												</div>
+											</div>
+											<div class="carousel-navigation is-overlay">
+												<div class="carousel-nav-left">
+													<i class="fa fa-chevron-left" aria-hidden="true"></i>
+												</div>
+												<div class="carousel-nav-right">
+													<i class="fa fa-chevron-right" aria-hidden="true"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-body">
+										<div class="post-category">
+											<a href="blog-list.html">Technology</a>
+										</div>
+										<a href="blog-post.html">
+											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+										</a>
+										<ul class="post-meta">
+											<li>
+												<a href="about.html">Welison Menezes</a>
+											</li>
+											<li>
+												20 April 2018
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns">
+							<div class="column is-6 col-left">
+								<div class="card">
+									<a href="blog-post.html" class="post-img">
+										<img src="assets/images/post-6.jpg" class="card-img-top" alt="">
 									</a>
 									<div class="card-body">
 										<div class="post-category">
@@ -219,7 +320,7 @@
 							<div class="column is-6 col-right">
 								<div class="card">
 									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-5.jpg" class="card-img-top rounded-0" alt="">
+										<img src="assets/images/post-7.jpg" class="card-img-top" alt="">
 									</a>
 									<div class="card-body">
 										<div class="post-category">
@@ -244,7 +345,7 @@
 							<div class="column is-6 col-left">
 								<div class="card">
 									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-6.jpg" class="card-img-top rounded-0" alt="">
+										<img src="assets/images/post-8.jpg" class="card-img-top" alt="">
 									</a>
 									<div class="card-body">
 										<div class="post-category">
@@ -267,55 +368,7 @@
 							<div class="column is-6 col-right">
 								<div class="card">
 									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-7.jpg" class="card-img-top rounded-0" alt="">
-									</a>
-									<div class="card-body">
-										<div class="post-category">
-											<a href="blog-list.html">Technology</a>
-										</div>
-										<a href="blog-post.html">
-											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-										</a>
-										<ul class="post-meta">
-											<li>
-												<a href="about.html">Welison Menezes</a>
-											</li>
-											<li>
-												20 April 2018
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="columns">
-							<div class="column is-6 col-left">
-								<div class="card">
-									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-8.jpg" class="card-img-top rounded-0" alt="">
-									</a>
-									<div class="card-body">
-										<div class="post-category">
-											<a href="blog-list.html">Technology</a>
-										</div>
-										<a href="blog-post.html">
-											<h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-										</a>
-										<ul class="post-meta">
-											<li>
-												<a href="about.html">Welison Menezes</a>
-											</li>
-											<li>
-												20 April 2018
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="column is-6 col-right">
-								<div class="card">
-									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-9.jpg" class="card-img-top rounded-0" alt="">
+										<img src="assets/images/post-9.jpg" class="card-img-top" alt="">
 									</a>
 									<div class="card-body">
 										<div class="post-category">
@@ -347,7 +400,7 @@
 							<div class="column is-6 col-left">
 								<div class="card">
 									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-10.jpg" class="card-img-top rounded-0" alt="">
+										<img src="assets/images/post-10.jpg" class="card-img-top" alt="">
 									</a>
 									<div class="card-body">
 										<div class="post-category">
@@ -370,7 +423,7 @@
 							<div class="column is-6 col-right">
 								<div class="card">
 									<a href="blog-post.html" class="post-img">
-										<img src="assets/images/post-11.jpg" class="card-img-top rounded-0" alt="">
+										<img src="assets/images/post-11.jpg" class="card-img-top" alt="">
 									</a>
 									<div class="card-body">
 										<div class="post-category">
@@ -481,7 +534,7 @@
 							<div class="column is-12">
 								<form class="form-sidebar">
 									<div>
-										<input type="text" class="form-control rounded-0" placeholder="Search">
+										<input type="text" class="form-control" placeholder="Search">
 										<button type="submit" class="btn btn-primary btn-sm">
 											<i class="fa fa-search"></i>
 										</button>
@@ -572,7 +625,7 @@
 								<form class="form-sidebar">
 									<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium</p>
 									<div>
-										<input type="text" class="form-control rounded-0" placeholder="Email">
+										<input type="text" class="form-control" placeholder="Email">
 										<button type="submit" class="btn btn-primary btn-sm">
 											<i class="fa fa-paper-plane"></i>
 										</button>
@@ -934,6 +987,7 @@
 	<!-- end modal -->
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>

@@ -1,4 +1,7 @@
 $(window).on('load', function () {
+
+	var carousels = bulmaCarousel.attach();
+	
     setTimeout(function () {
         $('body').fadeTo(300, 1);
     }, 500);

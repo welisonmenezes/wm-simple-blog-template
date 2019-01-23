@@ -8,6 +8,7 @@
 	<link rel="icon" href="assets/images/favicon.png">
 	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+	<link rel="stylesheet" href="node_modules/bulma-carousel/dist/css/bulma-carousel.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<style type="text/css">
@@ -192,7 +193,19 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac orci lorem. Aenean venenatis molestie dignissim. Praesent et arcu non risus ullamcorper <a href="#">consequat id at felis</a>. Vestibulum vel ullamcorper tellus. Fusce eleifend fringilla blandit. Maecenas cursus enim viverra laoreet lacinia. Nullam id leo ipsum. Cras in lorem urna. Phasellus ac ornare dolor.
 							</p>
 							<figure class="figure-img left-img" style="max-width: 300px;">
-								<img src="assets/images/post-9.jpg" alt="">
+								<div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true">
+									<div class='carousel-container'>
+										<div class='carousel-item is-active'>
+											<img src="assets/images/post-9.jpg">
+										</div>
+										<div class='carousel-item has-background'>
+											<img src="assets/images/post-5.jpg">
+										</div>
+										<div class='carousel-item has-background'>
+											<img src="assets/images/post-3.jpg">
+										</div>
+									</div>
+								</div>
 								<figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption>
 							</figure>
 							<p>
@@ -893,6 +906,7 @@
 	<!-- end modal -->
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>
