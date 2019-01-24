@@ -300,6 +300,13 @@ textarea{
 	list-style: none;
 	font-size: 0.8em;
 }
+.nav-footer.text-right li a{
+	color: #daede2;
+}
+.nav-footer.text-right li a:hover,
+.nav-footer.text-right li a:active{
+	color: #77c4d3;
+}
 
 @media (max-width: 576px) {
 	.footer-main .nav-footer{

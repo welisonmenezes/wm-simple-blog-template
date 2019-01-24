@@ -792,6 +792,13 @@ textarea.form-control{
     list-style: none;
     font-size: 0.8em;
 }
+.right.aligned .nav-footer li a{
+	color: #daede2;
+}
+.right.aligned .nav-footer li a:hover,
+.right.aligned .nav-footer li a:active{
+	color: #77c4d3;
+}
 
 .footer-main{
 	background: #272a36;

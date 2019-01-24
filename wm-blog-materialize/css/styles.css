@@ -720,6 +720,13 @@ nav ul a{
     list-style: none;
     font-size: 0.8em;
 }
+.nav-footer.right-align li a{
+	color: #daede2;
+}
+.nav-footer.right-align li a:hover,
+.nav-footer.right-align li a:active{
+	color: #77c4d3;
+}
 
 
 main.main{

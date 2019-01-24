@@ -753,6 +753,13 @@ textarea.form-control{
     list-style: none;
     font-size: 0.8em;
 }
+.nav-footer.has-text-right li a{
+	color: #daede2;
+}
+.nav-footer.has-text-right li a:hover,
+.nav-footer.has-text-right li a:active{
+	color: #77c4d3;
+}
 
 main.main{
 	min-height: 300px;
